@@ -1,0 +1,15 @@
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.deps.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.runtimeconfig.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.pdb
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.GeneratedMSBuildEditorConfig.editorconfig
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfoInputs.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfo.cs
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.csproj.CoreCompileInputs.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.sourcelink.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/refint/StablePerfectMatching.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.pdb
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.genruntimeconfig.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/ref/StablePerfectMatching.dll

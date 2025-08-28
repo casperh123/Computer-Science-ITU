@@ -1,0 +1,15 @@
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/bin/Debug/net8.0/HelloKattis2
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/bin/Debug/net8.0/HelloKattis2.deps.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/bin/Debug/net8.0/HelloKattis2.runtimeconfig.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/bin/Debug/net8.0/HelloKattis2.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/bin/Debug/net8.0/HelloKattis2.pdb
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.GeneratedMSBuildEditorConfig.editorconfig
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.AssemblyInfoInputs.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.AssemblyInfo.cs
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.csproj.CoreCompileInputs.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.sourcelink.json
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/refint/HelloKattis2.dll
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.pdb
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/HelloKattis2.genruntimeconfig.cache
+/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/HelloKattis2/HelloKattis2/obj/Debug/net8.0/ref/HelloKattis2.dll
