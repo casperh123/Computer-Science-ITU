@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BspLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="week01-intro" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="file:$PROJECT_DIR$/.scala-build/?id=week01-intro_d5c0a6989e" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="BspTargetCanCompile">
+    <option name="compilableTargets">
+      <list>
+        <option value="file:$PROJECT_DIR$/.scala-build/?id=week01-intro_d5c0a6989e" />
+        <option value="file:$PROJECT_DIR$/.scala-build/?id=week01-intro_d5c0a6989e-test" />
+      </list>
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="847ebfab-047d-4556-bafa-6e1889bc8432" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__scala3_library_3_3_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__scala_library_2_13_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__scala_sdk_3_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__scalacheck_3_1_18_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__semanticdb_javac_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/BSP__test_interface_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/week01-intro_d5c0a6989e.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/Exercises.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/Exercises.test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/Factorial.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/Purification.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/intro-exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/intro-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/01-intro/project.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2025-adpro-main/SCHEDULE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/Exercises.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/Exercises.test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/Factorial.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/Purification.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/intro-exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro-1/project.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.bsp/scala-cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.idea/bsp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/01-intro_909a299fba-analysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_909a299fba/bloop-internal-classes/main-BvZ-T0rYQJWTyAQghc6cHA==/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/01-intro_b3557dfd11-analysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_b3557dfd11/bloop-internal-classes/main-05lda2WfRlmhQBVKGJ0ARw==/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-914183a868-test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-914183a868.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/01-intro_e8c2da8fb7-test-analysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/Exercises$u002Etest$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/Exercises$u002Etest$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/Exercises$u002Etest$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/ExercisesSpec$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/ExercisesSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7-test/bloop-internal-classes/test-nwLqtY1UTiWFa8ZNSlkfKA==/adpro/intro/ExercisesSpec.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/01-intro_e8c2da8fb7-analysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/.bloop/01-intro_e8c2da8fb7/bloop-internal-classes/main-wuxR9MQiQ_ywlS6XCcS2Og==/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_909a299fba/classes/main/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_b3557dfd11/classes/main/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/Purification$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/Purification$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/Purification$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/doWork2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial1.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/factorial2.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Exercises$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Exercises$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Exercises$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Factorial$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Factorial$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Factorial$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Functional$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Functional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Functional.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Imperative$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Imperative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/Imperative.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/MyModule$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/MyModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/MyModule.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/TailRecursive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/TailRecursive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/TailRecursive.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/printAbs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/main/adpro/intro/printAbs.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/Exercises$u002Etest$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/Exercises$u002Etest$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/Exercises$u002Etest$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/ExercisesSpec$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/ExercisesSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/01-intro_e8c2da8fb7/classes/test/adpro/intro/ExercisesSpec.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/ide-envs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/ide-inputs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/ide-launcher-options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/.scala-build/ide-options-v2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/Exercises.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/Exercises.test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/Factorial.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/Purification.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/intro-exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-intro/project.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week01-intro-1/week01-intro-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.bsp/scala-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/.bsp/scala-cli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/week01-intro-root.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e-test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e-test/week01-intro_d5c0a6989e-test-analysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e-test/week01-intro_d5c0a6989e-test-analysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e.json" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e/week01-intro_d5c0a6989e-analysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/.bloop/week01-intro_d5c0a6989e/week01-intro_d5c0a6989e-analysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/ide-envs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/ide-envs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/ide-inputs.json" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/ide-inputs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/week01-intro_d5c0a6989e/classes/main/adpro/intro/MyModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/week01-intro_d5c0a6989e/classes/main/adpro/intro/MyModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scala-build/week01-intro_d5c0a6989e/classes/main/adpro/intro/MyModule.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/.scala-build/week01-intro_d5c0a6989e/classes/main/adpro/intro/MyModule.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/.idea/.idea.StablePerfectMatching/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/.idea/.idea.StablePerfectMatching/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/.idea/.idea.StablePerfectMatching/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/bin/Debug/net8.0/StablePerfectMatching.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/StablePerfectMatching.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/apphost" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/ref/StablePerfectMatching.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/ref/StablePerfectMatching.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/refint/StablePerfectMatching.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/Debug/net8.0/refint/StablePerfectMatching.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/StablePerfectMatching.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/StablePerfectMatching.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/StablePerfectMatching.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/StablePerfectMatching.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="BSP">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="week01-intro" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="week01-intro" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="31vhctkUBI9snXRVnrPmCHJjjwK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ExercisesSpec.executor": "Run",
+    "Application.printAbs.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/casperh/GitHub/PCPP/Assignment-1"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.ExercisesSpec">
+    <configuration name="ExercisesSpec" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="adpro.intro.ExercisesSpec" />
+      <module name="week01-intro_d5c0a6989e" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adpro.intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printAbs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="adpro.intro.printAbs" />
+      <module name="week01-intro_d5c0a6989e" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adpro.intro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" CHOSEN_TARGET="file:$PROJECT_DIR$/.scala-build/?id=week01-intro_d5c0a6989e-test" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExercisesSpec" />
+        <item itemvalue="Application.printAbs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="scala3DisclaimerShown" value="true" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="847ebfab-047d-4556-bafa-6e1889bc8432" name="Changes" comment="" />
+      <created>1756410537533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756410537533</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj": {}
+    "/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj": {}
   },
   "projects": {
-    "/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj": {
+    "/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj",
+        "projectUniqueName": "/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj",
         "projectName": "StablePerfectMatching",
-        "projectPath": "/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj",
-        "packagesPath": "/home/casper/.nuget/packages/",
-        "outputPath": "/home/casper/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/",
+        "projectPath": "/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/StablePerfectMatching.csproj",
+        "packagesPath": "/home/casperh/.nuget/packages/",
+        "outputPath": "/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week1/StablePerfectMatching/StablePerfectMatching/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/casper/.nuget/NuGet/NuGet.Config"
+          "/home/casperh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

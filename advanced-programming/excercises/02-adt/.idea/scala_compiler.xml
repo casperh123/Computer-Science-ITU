@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="bsp 1" modules="02-adt_d5c0a6989e">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-Xfatal-warnings" />
+        <parameter value="-source:future" />
+        <parameter value="-language:adhocExtensions" />
+        <parameter value="-Xsemanticdb" />
+        <parameter value="-sourceroot" />
+        <parameter value="$PROJECT_DIR$" />
+      </parameters>
+    </profile>
+  </component>
+</project>
