@@ -4,6 +4,7 @@
 package adpro.adt
 
 import java.util.NoSuchElementException
+import scala.annotation.tailrec
 
 enum List[+A]:
   case Nil
@@ -36,41 +37,64 @@ object List:
 
   // Exercise 2
 
-  def tail[A] (l: List[A]): List[A] = ???
+  def tail[A] (l: List[A]): List[A] = l match
+    case Nil => throw NoSuchElementException()
+    case Cons(x, xs) => xs
 
   // Exercise 3
   
-  def drop[A] (l: List[A], n: Int): List[A] = ???
+  @tailrec
+  def drop[A](l: List[A], n: Int): List[A] = l match
+    case l if n <= 0 => l
+    case Nil => throw NoSuchElementException()
+    case Cons(x, xs) => drop(xs, n - 1)
 
   // Exercise 4
 
-  def dropWhile[A] (l: List[A], p: A => Boolean): List[A] = ???
+  @tailrec
+  def dropWhile[A](l: List[A], p: A => Boolean): List[A] = l match
+    case Nil => l
+    case Cons(x, xs) if p(x) => dropWhile(xs, p)
+    case Cons(x, xs) => l
+
 
   // Exercise 5
- 
-  def init[A] (l: List[A]): List[A] = ???
+  def init[A] (l  : List[A]): List[A] = l match
+    case Nil => throw NoSuchElementException()
+    case Cons(x, Nil) => Nil
+    case Cons(x, xs) => Cons(x, init(xs))
 
   // Exercise 6
 
-  def length[A] (l: List[A]): Int = ???
+  def length[A] (l: List[A]): Int =
+    foldRight(l, 0, (_, acc) => acc + 1)
+
 
   // Exercise 7
 
-  def foldLeft[A, B] (l: List[A], z: B, f: (B, A) => B): B = ???
+  @tailrec
+  def foldLeft[A, B](l: List[A], z: B, f: (B, A) => B): B = l match
+    case Nil => z
+    case Cons(x, xs) => foldLeft(xs, f(z, x), f)
+
 
   // Exercise 8
 
-  def product (as: List[Int]): Int = ???
+  def product (as: List[Int]): Int =
+    foldLeft(as, 1, (x, y) => x * y)
 
-  def length1[A] (as: List[A]): Int = ???
+  def length1[A] (as: List[A]): Int =
+    foldLeft(as, 0, (acc, x) => acc + 1)
 
   // Exercise 9
 
-  def reverse[A] (l: List[A]): List[A] = ???
+  def reverse[A] (l: List[A]): List[A] =
+    foldLeft(l, List(), (acc, x) => Cons(x, acc))
  
   // Exercise 10
 
-  def foldRight1[A, B] (l: List[A], z: B, f: (A, B) => B): B = ???
+  def foldRight1[A, B] (l: List[A], z: B, f: (A, B) => B): B =
+    foldLeft(reverse(l), z, (x, acc) => f(acc, x))
 
   // Exercise 11
 
@@ -78,19 +102,23 @@ object List:
  
   // Exercise 12
 
-  def concat[A] (l: List[List[A]]): List[A] = ???
+  def concat[A] (l: List[List[A]]): List[A] =
+    foldLeft(l, List(), (acc, xs) => List.append(acc, xs))
   
   // Exercise 13
 
-  def filter[A] (l: List[A], p: A => Boolean): List[A] = ???
+  def filter[A] (l: List[A], p: A => Boolean): List[A] =
+    foldRight(l, List(), (x, acc) => if p(x) then Cons(x, acc) else acc)
  
   // Exercise 14
 
-  def flatMap[A,B] (l: List[A], f: A => List[B]): List[B] = ???
+  def flatMap[A,B] (l: List[A], f: A => List[B]): List[B] =
+    foldRight(l, List(), (xs, acc) => List.append(f(xs), acc))
 
   // Exercise 15
 
-  def filter1[A] (l: List[A], p: A => Boolean): List[A] = ???
+  def filter1[A] (l: List[A], p: A => Boolean): List[A] =
+    flatMap(l, x => if p(x) then List(x) else Nil)
 
   // Exercise 16
 
