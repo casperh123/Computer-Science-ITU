@@ -31,3 +31,64 @@
 2025.09.08 21:13:43 INFO  Shutting down server[0m
 2025.09.08 21:13:43 INFO  shutting down Metals[0m
 2025.09.08 21:13:43 INFO  Shut down connection with build server.[0m
+2025.09.09 07:57:32 INFO  Started: Metals version 1.6.2 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt' for client Visual Studio Code 1.103.2.
+2025.09.09 07:57:32 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.09 07:57:33 INFO  Attempting to connect to the build server...
+2025.09.09 07:57:33 INFO  Running BSP server List(/usr/local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt)
+2025.09.09 07:57:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.09.09 07:57:34 INFO  BSP server: Starting compilation server
+Sept 09, 2025 7:57:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sept 09, 2025 7:57:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sept 09, 2025 7:57:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.09.09 07:57:35 INFO  BSP server: [hint] ./project.scala:4:21
+2025.09.09 07:57:35 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.09.09 07:57:35 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.09.09 07:57:35 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.09.09 07:57:35 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.09.09 07:57:35 INFO  time: Connected to build server in 2.34s
+2025.09.09 07:57:35 INFO  Connected to Build server: scala-cli v1.8.5
+2025.09.09 07:57:35 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.09 07:57:35 INFO  BSP server: [hint] ./project.scala:4:21
+2025.09.09 07:57:35 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.09.09 07:57:35 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.09.09 07:57:35 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.09.09 07:57:35 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.09.09 07:57:40 INFO  Shutting down server
+2025.09.09 07:57:40 INFO  shutting down Metals
+2025.09.09 07:57:40 INFO  Shut down connection with build server.
+2025.09.09 07:57:40 INFO  BSP server: Sep 09, 2025 7:57:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.09.09 07:57:40 INFO  BSP server: WARNING: Notification threw an exception: {
+2025.09.09 07:57:40 INFO  BSP server:   "jsonrpc": "2.0",
+2025.09.09 07:57:40 INFO  BSP server:   "method": "build/exit",
+2025.09.09 07:57:40 INFO  BSP server:   "params": null
+2025.09.09 07:57:40 INFO  BSP server: }
+2025.09.09 07:57:40 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2025.09.09 07:57:40 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.09.09 07:57:40 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2025.09.09 07:57:40 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2025.09.09 07:57:40 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2025.09.09 07:57:40 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2025.09.09 07:57:40 INFO  BSP server: 	... 13 more
+2025.09.09 07:57:40 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2025.09.09 07:57:40 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2025.09.09 07:57:40 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2025.09.09 07:57:40 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:475)
+2025.09.09 07:57:40 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2025.09.09 07:57:40 INFO  BSP server: 	... 15 more
+2025.09.09 07:57:40 INFO  BSP server: 
+2025.09.09 07:57:40 INFO  Exiting server
