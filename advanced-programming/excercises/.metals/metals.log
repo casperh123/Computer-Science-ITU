@@ -1932,3 +1932,114 @@ WARNING: Unmatched cancel notification for request id 100
 2025.09.09 10:52:47 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)[0m
 2025.09.09 10:52:47 INFO  BSP server: 	... 15 more[0m
 2025.09.09 10:52:47 INFO  BSP server: [0m
+2025.09.11 11:30:42 INFO  Started: Metals version 1.6.2 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.11 11:30:44 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.11 11:30:44 INFO  Attempting to connect to the build server...[0m
+2025.09.11 11:30:44 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises)[0m
+2025.09.11 11:30:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/[0m
+2025.09.11 11:30:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/[0m
+2025.09.11 11:30:44 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml[0m
+2025.09.11 11:30:44 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml[0m
+2025.09.11 11:30:44 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 11:30:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 11:30:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 11:30:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 11:30:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.09.11 11:30:44 INFO  time: Connected to build server in 1.01s[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 11:30:45 INFO  Connected to Build server: scala-cli v1.8.5[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 11:30:44 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:45 INFO  time: Imported build in 0.12s[0m
+2025.09.11 11:30:45 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 11:30:45 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 11:30:45 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 11:30:45 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 11:30:45 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.09.11 11:30:48 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.09.11 11:30:48 INFO  time: indexed workspace in 2.57s[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 11:30:48 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 11:30:48 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 11:30:48 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 11:30:48 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 11:30:48 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 11:30:48 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+Sep 11, 2025 11:30:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.09.11 11:35:10 INFO  Shutting down server[0m
+2025.09.11 11:35:10 INFO  shutting down Metals[0m
+2025.09.11 11:35:10 INFO  Shut down connection with build server.[0m
+2025.09.11 12:11:46 INFO  Started: Metals version 1.6.2 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.11 12:11:47 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.11 12:11:47 INFO  Attempting to connect to the build server...[0m
+2025.09.11 12:11:47 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises)[0m
+2025.09.11 12:11:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 12:11:47 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:47 INFO  time: Connected to build server in 0.61s[0m
+2025.09.11 12:11:48 INFO  Connected to Build server: scala-cli v1.8.5[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 12:11:47 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.09.11 12:11:51 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/src.zip, /usr/lib/jvm/java-17-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.09.11 12:11:51 INFO  time: indexed workspace in 2.66s[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] ./project.scala:1:1[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/02-adt/project.scala:1:1[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/03-option/project.scala:1:1[0m
+2025.09.11 12:11:51 INFO  BSP server: [warn] Using directives detected in multiple files. It is recommended to keep them centralized in the /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/project.scala file.[0m
+2025.09.11 12:11:51 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.09.11 12:11:51 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.09.11 12:11:51 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.09.11 12:11:51 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.09.11 12:11:51 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+Sep 11, 2025 12:11:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.09.11 12:20:04 INFO  Shutting down server[0m
+2025.09.11 12:20:04 INFO  shutting down Metals[0m
+2025.09.11 12:20:04 INFO  Shut down connection with build server.[0m

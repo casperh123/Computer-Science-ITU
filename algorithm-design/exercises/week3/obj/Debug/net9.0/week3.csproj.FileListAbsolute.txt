@@ -1,0 +1,15 @@
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/bin/Debug/net9.0/week3
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/bin/Debug/net9.0/week3.deps.json
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/bin/Debug/net9.0/week3.runtimeconfig.json
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/bin/Debug/net9.0/week3.dll
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/bin/Debug/net9.0/week3.pdb
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.GeneratedMSBuildEditorConfig.editorconfig
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.AssemblyInfoInputs.cache
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.AssemblyInfo.cs
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.csproj.CoreCompileInputs.cache
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.sourcelink.json
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.dll
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/refint/week3.dll
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.pdb
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/week3.genruntimeconfig.cache
+/home/casperh/GitHub/Computer-Science-ITU/algorithm-design/exercises/week3/obj/Debug/net9.0/ref/week3.dll
