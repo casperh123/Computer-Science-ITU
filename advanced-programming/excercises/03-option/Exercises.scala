@@ -13,7 +13,11 @@ trait OrderedPoint
   this: java.awt.Point =>
 
   override def compare(that: java.awt.Point): Int =
-    ???
+    if this.x < that.x then -1
+    else if this.x > that.x then 1
+    else if this.y < that.y then -1
+    else if this.y > that.y then 1
+    else 0
 
 // Try the following (and similar) tests in the repl (sbt console):
 //
@@ -34,11 +38,15 @@ object Tree:
 
   // Exercise 2
 
-  def size[A](t: Tree[A]): Int = 
+  def size[A](t: Tree[A]): Int = t match
+    case Leaf(_) => 1
+    case Branch(l, r) => size(l) + size(r) + 1
+
+    /*
     def internalSize[A](t: Tree[A], acc: Int): Int = t match
       case Leaf(_) => acc + 1
       case Branch(l, r) => internalSize(l, acc) + internalSize(r, acc + 1)
-    internalSize(t, 0)
+    internalSize(t, 0)*/
 
       
     
@@ -59,13 +67,19 @@ object Tree:
 
   // Exercise 5
 
-  def fold[A,B](t: Tree[A])(f: (B, B) => B)(g: A => B): B = ???
+  def fold[A,B](t: Tree[A])(f: (B, B) => B)(g: A => B): B = t match
+    case Leaf(v) => g(v)
+    case Branch(l, r) => f(fold(l)(f)(g), fold(r)(f)(g))
 
-  def size1[A](t: Tree[A]): Int =  ???
+  def size1[A](t: Tree[A]): Int =
+    fold[A, Int](t)((l, r) => l + r + 1)(_ => 1)
 
-  def maximum1(t: Tree[Int]): Int = ???
 
-  def map1[A, B](t: Tree[A])(f: A => B): Tree[B] = ???
+  def maximum1(t: Tree[Int]): Int =
+    fold[Int, Int](t)((l, r) => if l > r then l else r)(v => v)
+
+  def map1[A, B](t: Tree[A])(f: A => B): Tree[B] =
+    fold[A, Tree[B]](t)((l, r) => Branch(l, r))(v => Leaf(f(v)))
 
 
 
