@@ -1,0 +1,14 @@
+{
+    "save_dir": "Data",
+    "screen_width": 1280,
+    "screen_height": 720,
+    "background_color": [255, 255, 255],
+    "target_display_time": 3.0,
+    "target_radius": 30,
+    "target_color": [0, 0, 255],
+    "default_targets": [
+        [0.2, 0.2], [0.5, 0.2], [0.8, 0.2],
+        [0.2, 0.5], [0.5, 0.5], [0.8, 0.5],
+        [0.2, 0.8], [0.5, 0.8], [0.8, 0.8]
+    ]
+}
