@@ -126,7 +126,7 @@ object MonoidEx4Spec
 
   property("Ex04.06: optionMonoidLift is a monoid") =
     given Monoid[Int] = intAddition
-    optionMonoidLift[Int].laws.monoid;
+    optionMonoidLift[Int].laws.monoid
 
 end MonoidEx4Spec
 

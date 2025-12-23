@@ -1,0 +1,65 @@
+2025.12.15 16:20:17 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list' for client VSCodium 1.106.3.[0m
+2025.12.15 16:20:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.15 16:20:18 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.12.15 16:20:18 INFO  Attempting to connect to the build server...[0m
+2025.12.15 16:20:18 INFO  Running BSP server List(/usr/local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list)[0m
+2025.12.15 16:20:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/excercises/04-lazy-list/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.12.15 16:20:20 INFO  time: Connected to build server in 1.79s[0m
+2025.12.15 16:20:20 INFO  Connected to Build server: scala-cli v1.8.5[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.12.15 16:20:20 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+Dec 15, 2025 4:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Dec 15, 2025 4:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Dec 15, 2025 4:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Dec 15, 2025 4:20:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.12.15 16:20:22 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2025.12.15 16:20:23 INFO  time: indexed workspace in 2.8s[0m
+2025.12.15 16:20:23 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.12.15 16:20:23 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.12.15 16:20:23 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.12.15 16:20:23 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.12.15 16:20:23 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2025.12.15 16:20:45 INFO  BSP server: [hint] ./project.scala:4:21[0m
+2025.12.15 16:20:45 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"[0m
+2025.12.15 16:20:45 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0[0m
+2025.12.15 16:20:45 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"[0m
+2025.12.15 16:20:45 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+Dec 15, 2025 4:20:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.15 16:27:15 INFO  Shutting down server[0m
+2025.12.15 16:27:15 INFO  shutting down Metals[0m
+2025.12.15 16:27:15 INFO  BSP server: Dec 15, 2025 4:27:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2025.12.15 16:27:15 INFO  Shut down connection with build server.[0m
+2025.12.15 16:27:15 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2025.12.15 16:27:15 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2025.12.15 16:27:15 INFO  BSP server:   "method": "build/exit",[0m
+2025.12.15 16:27:15 INFO  BSP server:   "params": null[0m
+2025.12.15 16:27:15 INFO  BSP server: }[0m
+2025.12.15 16:27:15 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2025.12.15 16:27:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2025.12.15 16:27:15 INFO  Exiting server[0m
