@@ -1,0 +1,58 @@
+2026.01.02 10:46:37 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens' for client VSCodium 1.107.1.
+Jan 02, 2026 10:46:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.02 10:46:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.02 10:46:38 INFO  Wrote configuration file for ide in: /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens/.bsp/scala-cli.json
+2026.01.02 10:46:38 INFO  time: ran 'scala-cli bspConfig' in 43ms
+2026.01.02 10:46:38 INFO  Attempting to connect to the build server...
+2026.01.02 10:46:38 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens)
+2026.01.02 10:46:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/13-lens/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2026.01.02 10:46:39 INFO  BSP server: Checking https://repo1.maven.org/maven2/dev/optics/monocle-core_3/
+2026.01.02 10:46:39 INFO  BSP server: Checked https://repo1.maven.org/maven2/dev/optics/monocle-core_3/
+2026.01.02 10:46:39 INFO  BSP server: Checking https://repo1.maven.org/maven2/dev/optics/monocle-core_3/maven-metadata.xml
+2026.01.02 10:46:39 INFO  BSP server: Checked https://repo1.maven.org/maven2/dev/optics/monocle-core_3/maven-metadata.xml
+2026.01.02 10:46:39 INFO  BSP server: Checking https://repo1.maven.org/maven2/dev/optics/monocle-macro_3/
+2026.01.02 10:46:39 INFO  BSP server: Checked https://repo1.maven.org/maven2/dev/optics/monocle-macro_3/
+2026.01.02 10:46:39 INFO  BSP server: Checking https://repo1.maven.org/maven2/dev/optics/monocle-macro_3/maven-metadata.xml
+2026.01.02 10:46:39 INFO  BSP server: Checked https://repo1.maven.org/maven2/dev/optics/monocle-macro_3/maven-metadata.xml
+2026.01.02 10:46:40 INFO  time: Connected to build server in 1.11s
+2026.01.02 10:46:40 INFO  Connected to Build server: scala-cli v1.8.5
+2026.01.02 10:46:40 INFO  compiling 13-lens_0f10ccc8b3 (3 scala sources)
+2026.01.02 10:46:41 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.02 10:46:43 INFO  time: indexed workspace in 3.23s
+2026.01.02 10:46:45 INFO  time: compiled 13-lens_0f10ccc8b3 in 5.38s
+2026.01.02 10:46:45 INFO  compiling 13-lens_0f10ccc8b3-test (1 scala source)
+2026.01.02 10:46:45 INFO  time: compiled 13-lens_0f10ccc8b3-test in 0.81s
+2026.01.02 10:56:29 INFO  Shutting down server
+2026.01.02 10:56:29 INFO  shutting down Metals
+2026.01.02 10:56:29 INFO  Shut down connection with build server.
+2026.01.02 10:56:29 INFO  BSP server: Jan 02, 2026 10:56:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.02 10:56:29 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.02 10:56:29 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.02 10:56:29 INFO  BSP server:   "method": "build/exit",
+2026.01.02 10:56:29 INFO  BSP server:   "params": null
+2026.01.02 10:56:29 INFO  BSP server: }
+2026.01.02 10:56:29 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.02 10:56:29 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.02 10:56:29 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.02 10:56:29 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.02 10:56:29 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.02 10:56:29 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.02 10:56:29 INFO  BSP server: 	... 13 more
+2026.01.02 10:56:29 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.02 10:56:29 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.02 10:56:29 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.02 10:56:29 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:475)
+2026.01.02 10:56:29 INFO  Exiting server

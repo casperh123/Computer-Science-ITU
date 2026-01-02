@@ -1,0 +1,957 @@
+2025.12.23 14:51:20 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option' for client VSCodium 1.106.3.
+2025.12.23 14:51:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 14:51:21 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 14:51:23 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 14:51:23 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 14:51:27 INFO  Wrote configuration file for ide in: /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.bsp/scala-cli.json
+2025.12.23 14:51:27 INFO  time: ran 'scala-cli bspConfig' in 77ms
+2025.12.23 14:51:27 INFO  Attempting to connect to the build server...
+2025.12.23 14:51:27 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option)
+2025.12.23 14:51:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.23 14:51:28 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 14:51:28 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:51:28 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:51:28 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:51:28 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:51:28 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:51:27 INFO  time: Connected to build server in 0.63s
+2025.12.23 14:51:28 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.23 14:51:28 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:51:28 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:51:28 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:51:28 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:51:28 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:51:28 INFO  compiling 03-option_0f10ccc8b3 (3 scala sources and 1 java source)
+2025.12.23 14:51:32 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 14:51:34 INFO  time: indexed workspace in 5.98s
+2025.12.23 14:51:35 INFO  time: compiled 03-option_0f10ccc8b3 in 6.31s
+2025.12.23 14:51:35 INFO  compiling 03-option_0f10ccc8b3-test (2 scala sources)
+2025.12.23 14:51:38 INFO  time: compiled 03-option_0f10ccc8b3-test in 3.31s
+2025.12.23 14:51:38 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:51:38 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:51:38 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:51:38 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:51:38 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Dec 23, 2025 2:52:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2025.12.23 14:52:58 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:52:58 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:52:58 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:52:58 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:52:58 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:52:58 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:52:59 INFO  time: compiled 03-option_0f10ccc8b3 in 1.32s
+2025.12.23 14:53:16 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:53:16 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:53:16 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:53:16 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:53:16 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:53:16 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:53:16 INFO  time: compiled 03-option_0f10ccc8b3 in 0.46s
+2025.12.23 14:53:25 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:53:25 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:53:25 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:53:25 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:53:25 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:53:25 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:53:26 INFO  time: compiled 03-option_0f10ccc8b3-test in 15ms
+2025.12.23 14:53:26 INFO  time: compiled 03-option_0f10ccc8b3 in 1.54s
+2025.12.23 14:55:18 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:55:18 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:55:18 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:55:18 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:55:18 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:55:18 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:55:21 INFO  time: compiled 03-option_0f10ccc8b3 in 2.85s
+Dec 23, 2025 2:56:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 718
+2025.12.23 14:56:11 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala]
+2025.12.23 14:56:11 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/.reports/metals-full/2025-12-23/r_compiler-error_(03-option_5f0f10ccc8b3)_14-56-11-415.md")
+2025.12.23 14:56:11 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala]
+2025.12.23 14:56:11 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/.reports/metals-full/2025-12-23/r_compiler-error_(03-option_5f0f10ccc8b3)_14-56-11-919.md")
+2025.12.23 14:56:29 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:56:29 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:56:29 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:56:29 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:56:29 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:56:29 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:56:31 INFO  time: compiled 03-option_0f10ccc8b3 in 2.07s
+2025.12.23 14:56:45 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:56:45 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:56:45 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:56:45 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:56:45 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:56:45 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:56:45 INFO  time: compiled 03-option_0f10ccc8b3 in 0.87s
+Dec 23, 2025 2:57:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1069
+2025.12.23 14:57:28 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:57:28 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:57:28 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:57:28 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:57:28 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:57:28 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:57:30 INFO  time: compiled 03-option_0f10ccc8b3 in 1.56s
+2025.12.23 14:57:33 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:57:33 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:57:33 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:57:33 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:57:33 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:57:33 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:57:34 INFO  time: compiled 03-option_0f10ccc8b3 in 1.01s
+2025.12.23 14:58:37 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:58:37 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:58:37 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:58:37 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:58:37 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:58:37 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:58:39 INFO  time: compiled 03-option_0f10ccc8b3 in 2.05s
+2025.12.23 14:58:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:58:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:58:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:58:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:58:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:58:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:58:41 INFO  time: compiled 03-option_0f10ccc8b3 in 1.22s
+Dec 23, 2025 2:59:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1236
+2025.12.23 14:59:24 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 14:59:24 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 14:59:24 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 14:59:24 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 14:59:24 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 14:59:25 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 14:59:26 INFO  time: compiled 03-option_0f10ccc8b3 in 1.64s
+2025.12.23 15:00:38 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:00:38 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:00:38 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:00:38 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:00:38 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:00:38 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:00:40 INFO  time: compiled 03-option_0f10ccc8b3 in 1.94s
+2025.12.23 15:01:01 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:01:01 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:01:01 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:01:01 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:01:01 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:01:01 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:01:01 INFO  time: compiled 03-option_0f10ccc8b3 in 0.59s
+2025.12.23 15:01:27 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:01:27 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:01:27 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:01:27 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:01:27 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:01:27 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:01:27 INFO  time: compiled 03-option_0f10ccc8b3 in 0.49s
+Dec 23, 2025 3:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1986
+2025.12.23 15:01:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:01:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:01:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:01:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:01:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:01:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:01:41 INFO  time: compiled 03-option_0f10ccc8b3 in 1.48s
+Dec 23, 2025 3:02:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2232
+Dec 23, 2025 3:02:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2408
+2025.12.23 15:02:36 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:02:36 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:02:36 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:02:36 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:02:36 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:02:37 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:02:38 INFO  time: compiled 03-option_0f10ccc8b3 in 1.43s
+Dec 23, 2025 3:02:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2467
+2025.12.23 15:04:31 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:04:31 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:04:31 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:04:31 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:04:31 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:04:31 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:04:33 INFO  time: compiled 03-option_0f10ccc8b3 in 2.12s
+2025.12.23 15:04:43 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:04:43 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:04:43 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:04:43 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:04:43 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:04:43 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:04:43 INFO  time: compiled 03-option_0f10ccc8b3 in 0.38s
+2025.12.23 15:04:44 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:04:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:04:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:04:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:04:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:04:44 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:04:45 INFO  time: compiled 03-option_0f10ccc8b3 in 1.44s
+Dec 23, 2025 3:05:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2773
+Dec 23, 2025 3:05:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2847
+2025.12.23 15:05:59 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:05:59 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:05:59 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:05:59 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:05:59 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:05:59 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:06:01 INFO  time: compiled 03-option_0f10ccc8b3 in 2.14s
+2025.12.23 15:06:02 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala]
+2025.12.23 15:06:02 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(03-option_5f0f10ccc8b3)_15-06-02-871.md")
+2025.12.23 15:06:09 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(03-option_5f0f10ccc8b3)_15-06-02-871.md")
+2025.12.23 15:06:24 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:06:24 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:06:24 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:06:24 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:06:24 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:06:24 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:06:26 INFO  time: compiled 03-option_0f10ccc8b3 in 1.76s
+Dec 23, 2025 3:06:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3125
+2025.12.23 15:07:18 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:18 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:18 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:18 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:18 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:18 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:18 INFO  time: compiled 03-option_0f10ccc8b3 in 0.45s
+2025.12.23 15:07:23 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:23 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:23 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:23 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:23 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:23 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:23 INFO  time: compiled 03-option_0f10ccc8b3 in 0.63s
+2025.12.23 15:07:41 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:41 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:41 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:41 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:41 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:41 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:41 INFO  time: compiled 03-option_0f10ccc8b3 in 0.51s
+2025.12.23 15:07:42 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:42 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:42 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:42 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:42 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:42 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:42 INFO  time: compiled 03-option_0f10ccc8b3 in 0.25s
+2025.12.23 15:07:45 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:45 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:45 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:45 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:45 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:45 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:45 INFO  time: compiled 03-option_0f10ccc8b3 in 0.39s
+2025.12.23 15:07:59 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:07:59 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:07:59 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:07:59 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:07:59 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:07:59 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:07:59 INFO  time: compiled 03-option_0f10ccc8b3 in 0.33s
+2025.12.23 15:08:02 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:08:02 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:08:02 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:08:02 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:08:02 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:08:02 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:08:03 INFO  time: compiled 03-option_0f10ccc8b3 in 1.14s
+2025.12.23 15:10:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:10:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:10:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:10:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:10:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:10:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:10:43 INFO  time: compiled 03-option_0f10ccc8b3 in 2.88s
+Dec 23, 2025 3:10:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4084
+2025.12.23 15:11:07 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:11:07 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:11:07 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:11:07 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:11:07 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:11:07 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:11:08 INFO  time: compiled 03-option_0f10ccc8b3 in 1.16s
+Dec 23, 2025 3:35:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4351
+2025.12.23 15:36:17 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:36:17 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:36:17 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:36:17 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:36:17 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:36:17 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:36:20 INFO  time: compiled 03-option_0f10ccc8b3 in 3.53s
+2025.12.23 15:37:12 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:37:12 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:37:12 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:37:12 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:37:12 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:37:12 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:37:12 INFO  time: compiled 03-option_0f10ccc8b3 in 0.95s
+2025.12.23 15:39:49 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:39:49 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:39:49 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:39:49 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:39:49 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:39:49 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:39:51 INFO  time: compiled 03-option_0f10ccc8b3 in 1.92s
+2025.12.23 15:41:44 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:41:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:41:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:41:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:41:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:41:44 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:41:47 INFO  time: compiled 03-option_0f10ccc8b3 in 2.33s
+2025.12.23 15:42:11 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:42:11 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:42:11 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:42:11 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:42:11 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:42:11 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:42:13 INFO  time: compiled 03-option_0f10ccc8b3 in 1.74s
+2025.12.23 15:42:21 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:42:21 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:42:21 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:42:21 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:42:21 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:42:21 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:42:21 INFO  time: compiled 03-option_0f10ccc8b3 in 0.74s
+2025.12.23 15:43:05 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:05 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:05 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:05 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:05 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:05 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:05 INFO  time: compiled 03-option_0f10ccc8b3 in 0.35s
+2025.12.23 15:43:10 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:10 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:10 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:10 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:10 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:10 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:11 INFO  time: compiled 03-option_0f10ccc8b3 in 1.29s
+2025.12.23 15:43:17 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:17 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:17 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:17 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:17 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:17 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:17 INFO  time: compiled 03-option_0f10ccc8b3 in 0.22s
+2025.12.23 15:43:19 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:19 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:19 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:19 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:19 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:19 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:19 INFO  time: compiled 03-option_0f10ccc8b3 in 0.2s
+2025.12.23 15:43:24 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:24 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:24 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:24 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:24 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:24 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:24 INFO  time: compiled 03-option_0f10ccc8b3 in 0.21s
+2025.12.23 15:43:29 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:43:29 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:43:29 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:43:29 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:43:29 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:43:29 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:43:29 INFO  time: compiled 03-option_0f10ccc8b3 in 0.78s
+2025.12.23 15:45:39 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:45:39 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:45:39 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:45:39 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:45:39 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:45:39 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:45:41 INFO  time: compiled 03-option_0f10ccc8b3 in 2s
+2025.12.23 15:47:41 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:47:41 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:47:41 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:47:41 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:47:41 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:47:41 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:47:43 INFO  time: compiled 03-option_0f10ccc8b3 in 1.96s
+Dec 23, 2025 3:48:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6641
+2025.12.23 15:48:57 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:48:57 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:48:57 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:48:57 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:48:57 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:48:57 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:48:57 INFO  time: compiled 03-option_0f10ccc8b3 in 0.41s
+2025.12.23 15:49:14 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:49:14 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:49:14 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:49:14 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:49:14 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:49:14 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:49:14 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 15:50:49 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:50:49 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:50:49 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:50:49 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:50:49 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:50:49 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:50:49 INFO  time: compiled 03-option_0f10ccc8b3 in 0.28s
+2025.12.23 15:50:55 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:50:55 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:50:55 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:50:55 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:50:55 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:50:55 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:50:55 INFO  time: compiled 03-option_0f10ccc8b3 in 0.24s
+2025.12.23 15:51:04 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:51:04 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:51:04 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:51:04 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:51:04 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:51:04 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:51:04 INFO  time: compiled 03-option_0f10ccc8b3 in 0.47s
+2025.12.23 15:51:06 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:51:06 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:51:06 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:51:06 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:51:06 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:51:06 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:51:06 INFO  time: compiled 03-option_0f10ccc8b3 in 0.22s
+2025.12.23 15:51:07 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:51:07 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:51:07 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:51:07 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:51:07 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:51:07 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:51:07 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 15:51:41 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:51:41 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:51:41 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:51:41 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:51:41 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:51:41 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:51:41 INFO  time: compiled 03-option_0f10ccc8b3 in 0.54s
+2025.12.23 15:52:04 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:04 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:04 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:04 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:04 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:04 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:04 INFO  time: compiled 03-option_0f10ccc8b3 in 0.37s
+2025.12.23 15:52:10 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:10 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:10 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:10 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:10 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:10 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:10 INFO  time: compiled 03-option_0f10ccc8b3 in 0.36s
+2025.12.23 15:52:12 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:12 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:12 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:12 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:12 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:12 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:12 INFO  time: compiled 03-option_0f10ccc8b3 in 0.38s
+2025.12.23 15:52:15 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:15 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:15 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:15 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:15 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:15 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:15 INFO  time: compiled 03-option_0f10ccc8b3 in 0.31s
+2025.12.23 15:52:29 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:29 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:29 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:29 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:29 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:29 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:29 INFO  time: compiled 03-option_0f10ccc8b3 in 0.41s
+2025.12.23 15:52:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:40 INFO  time: compiled 03-option_0f10ccc8b3 in 0.32s
+2025.12.23 15:52:44 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:44 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:44 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 15:52:46 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:46 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:46 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:46 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:46 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:46 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:46 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 15:52:46 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:46 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:46 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:46 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:46 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:46 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:47 INFO  time: compiled 03-option_0f10ccc8b3 in 0.27s
+2025.12.23 15:52:47 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:47 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:47 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:47 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:47 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:47 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:47 INFO  time: compiled 03-option_0f10ccc8b3 in 0.33s
+2025.12.23 15:52:50 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:52:50 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:52:50 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:52:50 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:52:50 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:52:50 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:52:50 INFO  time: compiled 03-option_0f10ccc8b3 in 0.51s
+2025.12.23 15:53:00 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:53:00 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:53:00 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:53:00 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:53:00 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:53:00 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:53:00 INFO  time: compiled 03-option_0f10ccc8b3 in 0.35s
+2025.12.23 15:53:07 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:53:07 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:53:07 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:53:07 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:53:07 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:53:07 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:53:07 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 15:53:26 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:53:26 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:53:26 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:53:26 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:53:26 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:53:26 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:53:26 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Dec 23, 2025 3:54:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7719
+2025.12.23 15:54:34 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:54:34 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:54:34 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:54:34 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:54:34 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:54:34 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:54:34 INFO  time: compiled 03-option_0f10ccc8b3 in 0.4s
+2025.12.23 15:54:41 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:54:41 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:54:41 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:54:41 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:54:41 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:54:41 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:54:41 INFO  time: compiled 03-option_0f10ccc8b3 in 0.32s
+2025.12.23 15:54:50 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:54:50 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:54:50 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:54:50 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:54:50 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:54:50 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:54:50 INFO  time: compiled 03-option_0f10ccc8b3 in 0.38s
+2025.12.23 15:54:50 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:54:50 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:54:50 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:54:50 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:54:50 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:54:50 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:54:50 INFO  time: compiled 03-option_0f10ccc8b3 in 0.36s
+2025.12.23 15:55:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:55:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:55:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:55:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:55:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:55:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:55:40 INFO  time: compiled 03-option_0f10ccc8b3 in 0.25s
+2025.12.23 15:55:40 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:55:40 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:55:40 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:55:40 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:55:40 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:55:40 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:55:41 INFO  time: compiled 03-option_0f10ccc8b3 in 0.36s
+2025.12.23 15:56:18 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:56:18 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:56:18 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:56:18 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:56:18 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:56:18 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:56:18 INFO  time: compiled 03-option_0f10ccc8b3 in 0.32s
+2025.12.23 15:56:58 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:56:58 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:56:58 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:56:58 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:56:58 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:56:58 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:56:58 INFO  time: compiled 03-option_0f10ccc8b3 in 0.28s
+2025.12.23 15:57:12 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:57:12 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:57:12 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:57:12 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:57:12 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:57:12 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:57:12 INFO  time: compiled 03-option_0f10ccc8b3 in 0.28s
+2025.12.23 15:57:23 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:57:23 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:57:23 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:57:23 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:57:23 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:57:23 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:57:24 INFO  time: compiled 03-option_0f10ccc8b3 in 1.49s
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.23 15:57:41 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:57:41 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:57:41 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:57:41 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:57:41 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:57:41 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:57:41 INFO  time: compiled 03-option_0f10ccc8b3 in 0.33s
+2025.12.23 15:57:44 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:57:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:57:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:57:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:57:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:57:44 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:57:44 INFO  time: compiled 03-option_0f10ccc8b3 in 0.31s
+2025.12.23 15:57:52 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:57:52 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:57:52 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:57:52 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:57:52 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:57:52 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:57:52 INFO  time: compiled 03-option_0f10ccc8b3 in 0.29s
+2025.12.23 15:58:05 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:58:05 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:58:05 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:58:05 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:58:05 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:58:05 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:58:05 INFO  time: compiled 03-option_0f10ccc8b3 in 0.84s
+Dec 23, 2025 3:59:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8671
+Dec 23, 2025 3:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8752
+2025.12.23 15:59:34 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 15:59:34 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 15:59:34 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 15:59:34 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 15:59:34 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 15:59:34 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 15:59:34 INFO  time: compiled 03-option_0f10ccc8b3 in 0.82s
+2025.12.23 16:00:08 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:00:08 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:00:08 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:00:08 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:00:08 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:00:08 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:00:08 INFO  time: compiled 03-option_0f10ccc8b3 in 0.33s
+2025.12.23 16:00:14 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:00:14 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:00:14 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:00:14 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:00:14 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:00:14 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:00:14 INFO  time: compiled 03-option_0f10ccc8b3 in 0.34s
+2025.12.23 16:00:55 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:00:55 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:00:55 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:00:55 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:00:55 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:00:55 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:00:57 INFO  time: compiled 03-option_0f10ccc8b3 in 1.75s
+2025.12.23 16:00:59 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:00:59 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:00:59 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:00:59 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:00:59 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:00:59 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:00:59 INFO  time: compiled 03-option_0f10ccc8b3 in 0.84s
+Dec 23, 2025 4:05:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9527
+2025.12.23 16:05:06 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:05:06 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:05:06 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:05:06 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:05:06 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:05:06 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:05:08 INFO  time: compiled 03-option_0f10ccc8b3 in 1.99s
+Dec 23, 2025 4:05:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9679
+Dec 23, 2025 4:05:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9798
+2025.12.23 16:05:46 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:05:46 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:05:46 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:05:46 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:05:46 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:05:46 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 16:05:47 INFO  time: compiled 03-option_0f10ccc8b3 in 1.03s
+2025.12.23 16:05:54 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 16:05:54 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 16:05:54 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 16:05:54 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 16:05:54 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 16:05:54 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 4:05:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9902
+2025.12.23 16:05:55 INFO  time: compiled 03-option_0f10ccc8b3 in 1.61s
+Dec 23, 2025 7:18:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10145
+Dec 23, 2025 7:19:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10297
+Dec 23, 2025 7:19:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10391
+2025.12.23 19:19:54 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 19:19:54 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 19:19:54 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 19:19:54 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 19:19:54 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 19:19:54 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 19:19:56 INFO  time: compiled 03-option_0f10ccc8b3 in 2.29s
+2025.12.23 19:24:44 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 19:24:44 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 19:24:44 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 19:24:44 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 19:24:44 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 19:24:44 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.23 19:24:45 INFO  time: compiled 03-option_0f10ccc8b3 in 1.64s
+2025.12.23 19:24:51 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.23 19:24:51 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.23 19:24:51 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.23 19:24:51 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.23 19:24:51 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.23 19:24:51 INFO  time: compiled 03-option_0f10ccc8b3 in 41ms
+2025.12.23 19:25:43 INFO  Shutting down server
+2025.12.23 19:25:43 INFO  shutting down Metals
+2025.12.23 19:25:43 INFO  BSP server: Dec 23, 2025 7:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.12.23 19:25:43 INFO  Shut down connection with build server.
+2025.12.23 19:25:43 INFO  BSP server: WARNING: Notification threw an exception: {
+2025.12.23 19:25:43 INFO  BSP server:   "jsonrpc": "2.0",
+2025.12.23 19:25:43 INFO  BSP server:   "method": "build/exit",
+2025.12.23 19:25:43 INFO  BSP server:   "params": null
+2025.12.23 19:25:43 INFO  BSP server: }
+2025.12.23 19:25:43 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2025.12.23 19:25:43 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.12.23 19:25:43 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2025.12.23 19:25:43 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2025.12.23 19:25:43 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2025.12.23 19:25:43 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2025.12.23 19:25:43 INFO  BSP server: 	... 13 more
+2025.12.23 19:25:43 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2025.12.23 19:25:43 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2025.12.23 19:25:43 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2025.12.23 19:25:43 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:475)
+2025.12.23 19:25:43 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2025.12.23 19:25:43 INFO  BSP server: 	... 15 more
+2025.12.23 19:25:43 INFO  Exiting server
+2025.12.27 20:40:24 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option' for client VSCodium 1.107.1.
+2025.12.27 20:40:24 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 20:40:25 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.27 20:40:26 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.27 20:40:26 INFO  Attempting to connect to the build server...
+2025.12.27 20:40:26 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option)
+2025.12.27 20:40:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.27 20:40:27 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:40:27 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:40:27 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:40:27 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:40:27 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:40:27 INFO  time: Connected to build server in 0.72s
+2025.12.27 20:40:27 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.27 20:40:27 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:40:27 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:40:27 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:40:27 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:40:27 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:40:31 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 20:40:31 INFO  time: indexed workspace in 3.72s
+2025.12.27 20:40:31 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:40:31 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:40:31 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:40:31 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:40:31 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:41:16 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:41:16 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:41:16 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:41:16 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:41:16 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:41:16 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 20:41:18 INFO  time: compiled 03-option_0f10ccc8b3 in 2.75s
+2025.12.27 20:42:32 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:42:32 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:42:32 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:42:32 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:42:32 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:42:32 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 20:42:33 INFO  time: compiled 03-option_0f10ccc8b3 in 1.13s
+2025.12.27 20:42:46 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:42:46 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:42:46 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:42:46 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:42:46 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:42:46 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 20:42:46 INFO  time: compiled 03-option_0f10ccc8b3 in 0.94s
+2025.12.27 20:45:25 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:45:25 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:45:25 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:45:25 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:45:25 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:45:25 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 20:45:27 INFO  time: compiled 03-option_0f10ccc8b3 in 2.37s
+2025.12.27 20:45:45 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 20:45:45 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 20:45:45 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 20:45:45 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 20:45:45 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 20:45:45 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 20:45:45 INFO  time: compiled 03-option_0f10ccc8b3 in 0.76s
+2025.12.27 21:28:07 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:28:07 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:28:07 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:28:07 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:28:07 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:28:07 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:28:08 INFO  time: compiled 03-option_0f10ccc8b3 in 1.77s
+2025.12.27 21:29:07 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:29:07 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:29:07 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:29:07 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:29:07 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:29:07 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:29:07 INFO  time: compiled 03-option_0f10ccc8b3 in 0.73s
+2025.12.27 21:29:47 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:29:47 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:29:47 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:29:47 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:29:47 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:29:47 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:29:47 INFO  time: compiled 03-option_0f10ccc8b3 in 0.66s
+2025.12.27 21:29:53 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:29:53 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:29:53 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:29:53 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:29:53 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:29:53 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:29:53 INFO  time: compiled 03-option_0f10ccc8b3 in 0.41s
+2025.12.27 21:30:20 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:30:20 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:30:20 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:30:20 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:30:20 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:30:20 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:30:21 INFO  time: compiled 03-option_0f10ccc8b3 in 1.05s
+Dec 27, 2025 9:31:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2161
+2025.12.27 21:31:08 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:31:08 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:31:08 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:31:08 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:31:08 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:31:08 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:31:08 INFO  time: compiled 03-option_0f10ccc8b3 in 0.79s
+Dec 27, 2025 9:31:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2268
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.27 21:31:18 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:31:18 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:31:18 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:31:18 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:31:18 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:31:18 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:31:20 INFO  time: compiled 03-option_0f10ccc8b3-test in 37ms
+2025.12.27 21:31:20 INFO  time: compiled 03-option_0f10ccc8b3 in 2.05s
+2025.12.27 21:31:28 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:31:28 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:31:28 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:31:28 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:31:28 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:31:28 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:31:28 INFO  time: compiled 03-option_0f10ccc8b3 in 0.33s
+2025.12.27 21:31:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala
+2025.12.27 21:31:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala
+2025.12.27 21:31:30 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:31:30 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:31:30 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:31:30 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:31:30 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:31:30 INFO  compiling 03-option_0f10ccc8b3 (1 scala source)
+2025.12.27 21:31:30 INFO  time: compiled 03-option_0f10ccc8b3 in 0.25s
+2025.12.27 21:31:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala
+2025.12.27 21:31:32 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/03-option/Exercises.scala
+2025.12.27 21:31:32 INFO  BSP server: [hint] ./project.scala:4:21
+2025.12.27 21:31:32 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2025.12.27 21:31:32 INFO  BSP server: [hint]      scalacheck 1.18.1 -> org.scalacheck::scalacheck:1.19.0
+2025.12.27 21:31:32 INFO  BSP server: [hint] //> using test.dep "org.scalacheck::scalacheck:1.18.1"
+2025.12.27 21:31:32 INFO  BSP server: [hint]                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025.12.27 21:31:32 INFO  time: compiled 03-option_0f10ccc8b3 in 4ms
+2025.12.27 22:18:46 INFO  Shutting down server
+2025.12.27 22:18:46 INFO  shutting down Metals
+2025.12.27 22:18:46 INFO  Shut down connection with build server.
+2025.12.27 22:18:46 INFO  BSP server: Dec 27, 2025 10:18:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.12.27 22:18:46 INFO  BSP server: WARNING: Notification threw an exception: {
+2025.12.27 22:18:46 INFO  BSP server:   "jsonrpc": "2.0",
+2025.12.27 22:18:46 INFO  BSP server:   "method": "build/exit",
+2025.12.27 22:18:46 INFO  BSP server:   "params": null
+2025.12.27 22:18:46 INFO  BSP server: }
+2025.12.27 22:18:46 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2025.12.27 22:18:46 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.12.27 22:18:46 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2025.12.27 22:18:46 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2025.12.27 22:18:46 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2025.12.27 22:18:46 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2025.12.27 22:18:46 INFO  BSP server: 	... 13 more
+2025.12.27 22:18:46 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2025.12.27 22:18:46 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2025.12.27 22:18:46 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2025.12.27 22:18:46 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:475)
+2025.12.27 22:18:46 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2025.12.27 22:18:46 INFO  BSP server: 	... 15 more
+2025.12.27 22:18:46 INFO  BSP server: 
+2025.12.27 22:18:46 INFO  Exiting server

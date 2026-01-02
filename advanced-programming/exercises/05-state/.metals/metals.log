@@ -1,0 +1,341 @@
+2025.12.23 21:16:19 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state' for client VSCodium 1.106.3.
+2025.12.23 21:16:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 21:16:20 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.23 21:16:22 INFO  Wrote configuration file for ide in: /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.bsp/scala-cli.json
+2025.12.23 21:16:22 INFO  time: ran 'scala-cli bspConfig' in 0.14s
+2025.12.23 21:16:22 INFO  Attempting to connect to the build server...
+2025.12.23 21:16:22 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state)
+2025.12.23 21:16:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.23 21:16:22 INFO  time: Connected to build server in 0.85s
+2025.12.23 21:16:23 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.23 21:16:23 INFO  time: Imported build in 0.24s
+2025.12.23 21:16:23 INFO  compiling 05-state_0f10ccc8b3 (4 scala sources)
+2025.12.23 21:16:31 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.23 21:16:32 INFO  time: compiled 05-state_0f10ccc8b3 in 9.09s
+2025.12.23 21:16:32 INFO  compiling 05-state_0f10ccc8b3-test (1 scala source)
+2025.12.23 21:16:35 INFO  time: indexed workspace in 11s
+2025.12.23 21:16:38 INFO  time: compiled 05-state_0f10ccc8b3-test in 5.88s
+Dec 23, 2025 9:17:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 139
+2025.12.23 21:17:59 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala]
+2025.12.23 21:17:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+2025.12.23 21:18:02 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:18:05 INFO  time: compiled 05-state_0f10ccc8b3 in 2.44s
+Dec 23, 2025 9:18:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 467
+2025.12.23 21:19:05 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:19:05 INFO  time: compiled 05-state_0f10ccc8b3 in 1s
+2025.12.23 21:19:12 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:19:14 INFO  time: compiled 05-state_0f10ccc8b3-test in 46ms
+2025.12.23 21:19:14 INFO  time: compiled 05-state_0f10ccc8b3 in 2.42s
+2025.12.23 21:21:06 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 9:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 934
+Dec 23, 2025 9:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 942
+Dec 23, 2025 9:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 944
+Dec 23, 2025 9:21:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 947
+2025.12.23 21:21:10 INFO  time: compiled 05-state_0f10ccc8b3 in 4.04s
+2025.12.23 21:21:10 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:21:14 INFO  time: compiled 05-state_0f10ccc8b3 in 3.04s
+2025.12.23 21:25:27 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 9:25:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1157
+2025.12.23 21:25:32 INFO  time: compiled 05-state_0f10ccc8b3 in 4.63s
+2025.12.23 21:25:36 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:25:38 INFO  time: compiled 05-state_0f10ccc8b3 in 1.78s
+Dec 23, 2025 9:27:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1446
+2025.12.23 21:27:24 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala]
+2025.12.23 21:27:24 INFO  java.lang.IndexOutOfBoundsException: -1 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_compiler-error_(05-state_5f0f10ccc8b3)_21-27-24-306.md")
+2025.12.23 21:27:50 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:27:52 INFO  time: compiled 05-state_0f10ccc8b3 in 2.37s
+2025.12.23 21:27:57 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:27:57 INFO  time: compiled 05-state_0f10ccc8b3 in 0.84s
+Dec 23, 2025 9:28:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1802
+Dec 23, 2025 9:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1849
+2025.12.23 21:28:29 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:28:31 INFO  time: compiled 05-state_0f10ccc8b3 in 2.7s
+Dec 23, 2025 9:29:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1955
+2025.12.23 21:29:31 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:29:33 INFO  time: compiled 05-state_0f10ccc8b3 in 1.41s
+Dec 23, 2025 9:29:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2082
+2025.12.23 21:29:46 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala]
+2025.12.23 21:29:46 INFO  java.lang.IndexOutOfBoundsException: -1 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_compiler-error_(05-state_5f0f10ccc8b3)_21-29-46-854.md")
+2025.12.23 21:29:50 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:29:50 INFO  time: compiled 05-state_0f10ccc8b3 in 0.36s
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.23 21:30:03 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:30:04 INFO  time: compiled 05-state_0f10ccc8b3 in 1.28s
+Dec 23, 2025 9:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2262
+Dec 23, 2025 9:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2268
+Dec 23, 2025 9:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2269
+2025.12.23 21:30:08 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:30:08 INFO  time: compiled 05-state_0f10ccc8b3 in 0.84s
+2025.12.23 21:32:41 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:32:46 INFO  time: compiled 05-state_0f10ccc8b3 in 4.99s
+Dec 23, 2025 9:33:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2508
+2025.12.23 21:33:30 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:33:31 INFO  time: compiled 05-state_0f10ccc8b3 in 1.6s
+Dec 23, 2025 9:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2643
+2025.12.23 21:33:34 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:33:34 INFO  time: compiled 05-state_0f10ccc8b3 in 0.78s
+2025.12.23 21:33:46 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:33:48 INFO  time: compiled 05-state_0f10ccc8b3 in 1.92s
+Dec 23, 2025 9:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2733
+2025.12.23 21:37:46 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 9:37:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3382
+Dec 23, 2025 9:37:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3383
+2025.12.23 21:37:51 INFO  time: compiled 05-state_0f10ccc8b3 in 4.3s
+2025.12.23 21:39:13 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 9:39:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3484
+2025.12.23 21:39:17 INFO  time: compiled 05-state_0f10ccc8b3 in 4.47s
+2025.12.23 21:39:42 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:39:44 INFO  time: compiled 05-state_0f10ccc8b3 in 1.45s
+2025.12.23 21:39:58 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:39:59 INFO  time: compiled 05-state_0f10ccc8b3 in 1.06s
+Dec 23, 2025 9:40:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3728
+Dec 23, 2025 9:40:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3914
+2025.12.23 21:40:51 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:40:52 INFO  time: compiled 05-state_0f10ccc8b3 in 1.21s
+2025.12.23 21:40:56 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:40:58 INFO  time: compiled 05-state_0f10ccc8b3 in 2.04s
+Dec 23, 2025 9:51:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4033
+Dec 23, 2025 9:51:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4169
+2025.12.23 21:51:47 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:51:50 INFO  time: compiled 05-state_0f10ccc8b3 in 3.71s
+Dec 23, 2025 9:52:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4324
+2025.12.23 21:52:38 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:52:41 INFO  time: compiled 05-state_0f10ccc8b3 in 2.93s
+Dec 23, 2025 9:55:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5385
+2025.12.23 21:55:40 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:55:44 INFO  time: compiled 05-state_0f10ccc8b3 in 3.63s
+2025.12.23 21:56:00 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:56:00 INFO  time: compiled 05-state_0f10ccc8b3 in 0.73s
+2025.12.23 21:56:20 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 21:56:23 INFO  time: compiled 05-state_0f10ccc8b3 in 2.79s
+2025.12.23 22:13:43 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+Dec 23, 2025 10:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6014
+Dec 23, 2025 10:13:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6015
+2025.12.23 22:13:46 INFO  time: compiled 05-state_0f10ccc8b3 in 2.56s
+2025.12.23 22:13:56 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:13:58 INFO  time: compiled 05-state_0f10ccc8b3 in 1.94s
+2025.12.23 22:14:06 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:14:06 INFO  time: compiled 05-state_0f10ccc8b3 in 0.41s
+2025.12.23 22:14:20 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:14:20 INFO  time: compiled 05-state_0f10ccc8b3 in 0.47s
+2025.12.23 22:14:30 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:14:30 INFO  time: compiled 05-state_0f10ccc8b3 in 0.97s
+Dec 23, 2025 10:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6256
+Dec 23, 2025 10:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6264
+2025.12.23 22:15:00 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:15:02 INFO  time: compiled 05-state_0f10ccc8b3 in 2.27s
+2025.12.23 22:17:22 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:17:22 INFO  time: compiled 05-state_0f10ccc8b3 in 0.37s
+2025.12.23 22:18:37 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:18:39 INFO  time: compiled 05-state_0f10ccc8b3 in 2.2s
+2025.12.23 22:19:54 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:19:54 INFO  time: compiled 05-state_0f10ccc8b3 in 0.34s
+2025.12.23 22:20:00 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:20:01 INFO  time: compiled 05-state_0f10ccc8b3 in 1.01s
+2025.12.23 22:20:10 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:20:10 INFO  time: compiled 05-state_0f10ccc8b3 in 0.23s
+2025.12.23 22:20:16 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:20:16 INFO  time: compiled 05-state_0f10ccc8b3 in 0.25s
+2025.12.23 22:20:19 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:20:19 INFO  time: compiled 05-state_0f10ccc8b3 in 0.88s
+2025.12.23 22:26:53 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:26:57 INFO  time: compiled 05-state_0f10ccc8b3 in 3.47s
+2025.12.23 22:27:09 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:27:10 INFO  time: compiled 05-state_0f10ccc8b3 in 1.09s
+2025.12.23 22:27:18 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:27:18 INFO  time: compiled 05-state_0f10ccc8b3 in 0.9s
+2025.12.23 22:27:35 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:27:37 INFO  time: compiled 05-state_0f10ccc8b3 in 2.2s
+Dec 23, 2025 10:28:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7626
+2025.12.23 22:28:56 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:29:01 INFO  time: compiled 05-state_0f10ccc8b3 in 4.05s
+2025.12.23 22:29:08 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:29:09 INFO  time: compiled 05-state_0f10ccc8b3 in 1.14s
+2025.12.23 22:29:19 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:29:19 INFO  time: compiled 05-state_0f10ccc8b3 in 0.47s
+2025.12.23 22:29:21 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:29:21 INFO  time: compiled 05-state_0f10ccc8b3 in 0.56s
+Dec 23, 2025 10:29:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7737
+2025.12.23 22:29:28 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:29:28 INFO  time: compiled 05-state_0f10ccc8b3 in 0.31s
+Dec 23, 2025 10:29:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7823
+2025.12.23 22:30:15 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+2025.12.23 22:30:15 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:30:15 INFO  time: compiled 05-state_0f10ccc8b3 in 0.41s
+2025.12.23 22:30:20 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:30:20 INFO  time: compiled 05-state_0f10ccc8b3 in 0.43s
+2025.12.23 22:30:24 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:30:24 INFO  time: compiled 05-state_0f10ccc8b3 in 0.37s
+2025.12.23 22:30:41 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:30:41 INFO  time: compiled 05-state_0f10ccc8b3 in 0.24s
+2025.12.23 22:30:52 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:30:54 INFO  time: compiled 05-state_0f10ccc8b3 in 2.12s
+2025.12.23 22:31:23 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:31:23 INFO  time: compiled 05-state_0f10ccc8b3 in 0.85s
+Dec 23, 2025 10:33:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8501
+Dec 23, 2025 10:34:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8729
+2025.12.23 22:34:50 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:34:52 INFO  time: compiled 05-state_0f10ccc8b3 in 2.11s
+Dec 23, 2025 10:35:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9126
+2025.12.23 22:35:51 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:35:53 INFO  time: compiled 05-state_0f10ccc8b3 in 1.91s
+2025.12.23 22:35:55 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:35:56 INFO  time: compiled 05-state_0f10ccc8b3 in 1.03s
+2025.12.23 22:36:15 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:36:17 INFO  time: compiled 05-state_0f10ccc8b3 in 2.4s
+Dec 23, 2025 10:36:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9511
+2025.12.23 22:36:51 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:36:51 INFO  time: compiled 05-state_0f10ccc8b3 in 0.48s
+2025.12.23 22:36:57 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:36:59 INFO  time: compiled 05-state_0f10ccc8b3 in 1.5s
+Dec 23, 2025 10:38:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9765
+Dec 23, 2025 10:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9904
+Dec 23, 2025 10:39:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9935
+Dec 23, 2025 10:39:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10046
+Dec 23, 2025 10:39:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10189
+2025.12.23 22:39:36 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:39:41 INFO  time: compiled 05-state_0f10ccc8b3 in 4.11s
+2025.12.23 22:39:44 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+2025.12.23 22:39:56 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:39:57 INFO  time: compiled 05-state_0f10ccc8b3 in 1.17s
+2025.12.23 22:40:15 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:40:15 INFO  time: compiled 05-state_0f10ccc8b3 in 0.97s
+2025.12.23 22:40:45 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:40:47 INFO  time: compiled 05-state_0f10ccc8b3 in 2.29s
+Exception in thread "pool-5-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Dec 23, 2025 10:42:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10642
+Dec 23, 2025 10:49:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10696
+2025.12.23 22:50:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+2025.12.23 22:50:25 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+Dec 23, 2025 10:51:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11492
+2025.12.23 22:51:26 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:51:31 INFO  time: compiled 05-state_0f10ccc8b3 in 4.67s
+2025.12.23 22:53:25 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:53:30 INFO  time: compiled 05-state_0f10ccc8b3 in 4.24s
+2025.12.23 22:53:30 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:53:32 INFO  time: compiled 05-state_0f10ccc8b3 in 1.84s
+2025.12.23 22:53:32 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:53:33 INFO  time: compiled 05-state_0f10ccc8b3 in 1.2s
+2025.12.23 22:54:16 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:54:16 INFO  time: compiled 05-state_0f10ccc8b3 in 0.98s
+Dec 23, 2025 10:55:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12419
+Dec 23, 2025 10:55:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12516
+2025.12.23 22:55:56 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:55:56 INFO  time: compiled 05-state_0f10ccc8b3 in 0.46s
+2025.12.23 22:55:59 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala]
+2025.12.23 22:55:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_22-55-59-542.md")
+Dec 23, 2025 10:56:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12984
+2025.12.23 22:56:25 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:56:26 INFO  time: compiled 05-state_0f10ccc8b3 in 1.13s
+2025.12.23 22:56:37 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:56:39 INFO  time: compiled 05-state_0f10ccc8b3 in 2.27s
+2025.12.23 22:58:16 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:58:16 INFO  time: compiled 05-state_0f10ccc8b3 in 0.97s
+2025.12.23 22:58:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:19 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:25 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:58:25 INFO  time: compiled 05-state_0f10ccc8b3 in 0.28s
+2025.12.23 22:58:26 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:29 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:58:29 INFO  time: compiled 05-state_0f10ccc8b3 in 0.26s
+2025.12.23 22:58:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:31 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:58:31 INFO  time: compiled 05-state_0f10ccc8b3 in 0.22s
+2025.12.23 22:58:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:34 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:36 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:58:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala
+2025.12.23 22:58:39 INFO  time: compiled 05-state_0f10ccc8b3 in 2.18s
+2025.12.23 22:59:33 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:59:33 INFO  time: compiled 05-state_0f10ccc8b3 in 0.26s
+2025.12.23 22:59:45 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:59:45 INFO  time: compiled 05-state_0f10ccc8b3 in 0.18s
+2025.12.23 22:59:47 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/.reports/metals-full/2025-12-23/r_empty-definition_(05-state_5f0f10ccc8b3)_21-17-59-256.md")
+2025.12.23 22:59:49 INFO  compiling 05-state_0f10ccc8b3 (1 scala source)
+2025.12.23 22:59:52 INFO  time: compiled 05-state_0f10ccc8b3 in 2.1s
+2025.12.23 23:00:13 INFO  Shutting down server
+2025.12.23 23:00:13 INFO  shutting down Metals
+2025.12.23 23:00:13 INFO  Shut down connection with build server.
+2025.12.23 23:00:13 INFO  Exiting server
+2025.12.27 22:19:08 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state' for client VSCodium 1.107.1.
+2025.12.27 22:19:08 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 22:19:09 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.27 22:19:09 INFO  Attempting to connect to the build server...
+2025.12.27 22:19:09 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state)
+2025.12.27 22:19:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/05-state/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.27 22:19:09 INFO  time: Connected to build server in 0.61s
+2025.12.27 22:19:09 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.27 22:19:09 INFO  time: Imported build in 0.1s
+2025.12.27 22:19:09 INFO  compiling 05-state_0f10ccc8b3-test (1 scala source)
+2025.12.27 22:19:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 22:19:13 INFO  time: indexed workspace in 3.83s
+2025.12.27 22:19:38 INFO  Shutting down server
+2025.12.27 22:19:38 INFO  shutting down Metals
+2025.12.27 22:19:38 INFO  Shut down connection with build server.
+2025.12.27 22:19:38 INFO  Exiting server

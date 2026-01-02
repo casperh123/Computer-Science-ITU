@@ -1,0 +1,974 @@
+2025.12.26 14:31:42 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing' for client VSCodium 1.107.1.
+2025.12.26 14:31:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.26 14:31:43 INFO  Attempting to connect to the build server...
+2025.12.26 14:31:43 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing)
+2025.12.26 14:31:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.26 14:31:43 INFO  time: Connected to build server in 0.52s
+2025.12.26 14:31:43 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.26 14:31:44 INFO  compiling 08-parsing_0f10ccc8b3-test (1 scala source)
+2025.12.26 14:31:46 INFO  time: compiled 08-parsing_0f10ccc8b3-test in 2.92s
+2025.12.26 14:31:47 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.26 14:31:48 INFO  time: indexed workspace in 4.21s
+2025.12.26 14:39:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.26 14:39:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.16s
+2025.12.26 14:43:39 INFO  Shutting down server
+2025.12.26 14:43:39 INFO  shutting down Metals
+2025.12.26 14:43:39 INFO  Shut down connection with build server.
+2025.12.26 14:43:39 INFO  BSP server: Dec 26, 2025 2:43:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2025.12.26 14:43:39 INFO  BSP server: WARNING: Notification threw an exception: {
+2025.12.26 14:43:39 INFO  BSP server:   "jsonrpc": "2.0",
+2025.12.26 14:43:39 INFO  BSP server:   "method": "build/exit",
+2025.12.26 14:43:39 INFO  BSP server:   "params": null
+2025.12.26 14:43:39 INFO  BSP server: }
+2025.12.26 14:43:39 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2025.12.26 14:43:39 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2025.12.26 14:43:39 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2025.12.26 14:43:39 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2025.12.26 14:43:39 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2025.12.26 14:43:39 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2025.12.26 14:43:39 INFO  Exiting server
+2025.12.26 14:56:46 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing' for client VSCodium 1.107.1.
+2025.12.26 14:56:46 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.26 14:56:46 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.26 14:56:47 INFO  Attempting to connect to the build server...
+2025.12.26 14:56:47 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing)
+2025.12.26 14:56:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.26 14:56:47 INFO  time: Connected to build server in 0.38s
+2025.12.26 14:56:48 INFO  Connected to Build server: scala-cli v1.8.5
+Dec 26, 2025 2:56:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 26, 2025 2:56:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Dec 26, 2025 2:56:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.12.26 14:56:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.26 14:56:50 INFO  time: indexed workspace in 1.96s
+2025.12.26 14:56:52 INFO  Shutting down server
+2025.12.26 14:56:52 INFO  shutting down Metals
+2025.12.26 14:56:52 INFO  Shut down connection with build server.
+2025.12.26 14:56:52 INFO  Exiting server
+2025.12.27 22:19:43 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing' for client VSCodium 1.107.1.
+2025.12.27 22:19:43 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 22:19:44 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.27 22:19:45 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.27 22:19:46 INFO  Attempting to connect to the build server...
+2025.12.27 22:19:46 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing)
+2025.12.27 22:19:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
+2025.12.27 22:19:45 INFO  time: Connected to build server in 0.52s
+2025.12.27 22:19:46 INFO  Connected to Build server: scala-cli v1.8.5
+2025.12.27 22:19:46 INFO  time: Imported build in 0.12s
+2025.12.27 22:19:49 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2025.12.27 22:19:49 INFO  time: indexed workspace in 3.66s
+2025.12.27 22:24:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 27, 2025 10:24:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+2025.12.27 22:24:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.32s
+2025.12.27 22:24:36 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:24:37 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.16s
+2025.12.27 22:24:37 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:24:39 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.05s
+2025.12.27 22:24:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:24:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.81s
+2025.12.27 22:24:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:24:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.42s
+2025.12.27 22:24:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:24:47 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.75s
+Dec 27, 2025 10:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+Dec 27, 2025 10:24:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 344
+2025.12.27 22:25:04 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:25:04 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.43s
+2025.12.27 22:26:15 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:26:18 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.82s
+2025.12.27 22:26:18 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:26:20 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.27 22:26:20 INFO  empty definition using pc, found symbol in pc: length. (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-27/r_empty-definition_(08-parsing_5f0f10ccc8b3)_22-26-20-090.md")
+2025.12.27 22:26:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.46s
+Dec 27, 2025 10:28:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 866
+2025.12.27 22:29:59 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:30:02 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.81s
+Dec 27, 2025 10:30:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1140
+Dec 27, 2025 10:30:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1191
+Dec 27, 2025 10:30:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1291
+2025.12.27 22:30:48 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:30:49 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.25s
+Dec 27, 2025 10:31:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1524
+Dec 27, 2025 10:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1757
+2025.12.27 22:33:43 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:33:46 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.85s
+Dec 27, 2025 10:34:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2520
+2025.12.27 22:34:49 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:34:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.94s
+2025.12.27 22:35:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:35:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.99s
+2025.12.27 22:36:14 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:36:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.87s
+2025.12.27 22:36:19 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:36:19 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.9s
+2025.12.27 22:36:21 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:36:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.94s
+2025.12.27 22:36:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:36:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:36:24 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.76s
+2025.12.27 22:36:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:36:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.46s
+Dec 27, 2025 10:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3567
+2025.12.27 22:37:28 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:37:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.06s
+2025.12.27 22:37:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:37:54 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:37:54 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.81s
+2025.12.27 22:37:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:37:59 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:38:17 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:38:17 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.87s
+2025.12.27 22:38:21 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:38:22 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.27 22:38:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:38:27 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.6s
+Dec 27, 2025 10:38:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3917
+2025.12.27 22:38:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:38:47 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.6s
+2025.12.27 22:38:55 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:38:55 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.77s
+Dec 27, 2025 10:38:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4005
+2025.12.27 22:39:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:39:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.34s
+2025.12.27 22:40:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:40:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.43s
+Dec 27, 2025 10:40:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4418
+2025.12.27 22:40:52 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:40:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.48s
+2025.12.27 22:41:04 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:41:04 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.3s
+2025.12.27 22:41:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:41:42 INFO  compiling 08-parsing_0f10ccc8b3-test (1 scala source)
+2025.12.27 22:41:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.14s
+2025.12.27 22:41:43 INFO  time: compiled 08-parsing_0f10ccc8b3-test in 1.65s
+Dec 27, 2025 10:44:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4801
+2025.12.27 22:44:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 27, 2025 10:44:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4987
+2025.12.27 22:44:47 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.92s
+2025.12.27 22:44:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:44:49 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.61s
+2025.12.27 22:45:00 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:45:00 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.82s
+2025.12.27 22:45:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:45:03 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.6s
+Dec 27, 2025 10:45:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5184
+Dec 27, 2025 10:45:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5287
+2025.12.27 22:45:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:45:47 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.56s
+2025.12.27 22:46:01 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:46:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.38s
+2025.12.27 22:46:07 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.27 22:46:10 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.67s
+2025.12.28 10:18:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:18:09 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.59s
+2025.12.28 10:18:37 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 10:18:37 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_compiler-error_(08-parsing_5f0f10ccc8b3)_10-18-37-066.md")
+2025.12.28 10:18:38 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 10:18:38 INFO  java.lang.IndexOutOfBoundsException: 0 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_compiler-error_(08-parsing_5f0f10ccc8b3)_10-18-38-291.md")
+2025.12.28 10:18:41 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 10:18:41 INFO  java.lang.IndexOutOfBoundsException: 1 (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_compiler-error_(08-parsing_5f0f10ccc8b3)_10-18-41-202.md")
+2025.12.28 10:18:51 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:18:51 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.37s
+2025.12.28 10:18:53 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:18:53 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.28s
+2025.12.28 10:19:29 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:19:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.42s
+2025.12.28 10:19:32 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:19:32 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.26s
+2025.12.28 10:19:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 10:19:40 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 10:19:41 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 10:19:58 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 10:20:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:20:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.34s
+2025.12.28 10:21:07 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:21:07 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.6s
+2025.12.28 10:21:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:21:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.3s
+2025.12.28 10:21:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:21:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:21:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:21:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.56s
+2025.12.28 10:21:26 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:21:26 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.54s
+2025.12.28 10:21:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:21:47 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.23s
+2025.12.28 10:23:15 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:23:17 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.28s
+2025.12.28 10:24:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:24:28 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.43s
+Dec 28, 2025 10:26:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7132
+Dec 28, 2025 10:27:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7169
+2025.12.28 10:27:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 28, 2025 10:27:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7297
+2025.12.28 10:27:40 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.61s
+2025.12.28 10:27:40 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:27:41 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.78s
+Dec 28, 2025 10:28:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7464
+2025.12.28 10:28:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:28:03 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.27s
+2025.12.28 10:28:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:28:03 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.25s
+2025.12.28 10:28:14 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:28:14 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.21s
+2025.12.28 10:29:26 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:29:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.31s
+2025.12.28 10:31:09 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:31:10 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:31:13 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.4s
+2025.12.28 10:31:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:31:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.76s
+2025.12.28 10:31:26 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:31:26 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.26s
+2025.12.28 10:31:31 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:31:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.77s
+2025.12.28 10:32:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:32:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.35s
+2025.12.28 10:32:36 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:32:36 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.25s
+2025.12.28 10:33:37 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:33:39 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.83s
+2025.12.28 10:33:43 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:33:43 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.49s
+2025.12.28 10:33:43 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:33:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.53s
+2025.12.28 10:33:52 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:33:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.35s
+Dec 28, 2025 10:34:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9059
+Dec 28, 2025 10:34:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9062
+2025.12.28 10:34:33 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:34:33 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.36s
+2025.12.28 10:34:40 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:34:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.34s
+2025.12.28 10:35:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:35:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.43s
+2025.12.28 10:35:28 INFO  time: compiled 08-parsing_0f10ccc8b3 in 9ms
+2025.12.28 10:36:59 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:37:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.74s
+2025.12.28 10:37:13 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:37:13 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.45s
+2025.12.28 10:37:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:37:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.33s
+2025.12.28 10:37:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:37:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.65s
+2025.12.28 10:38:16 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:38:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:38:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.79s
+2025.12.28 10:38:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:38:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.37s
+2025.12.28 10:39:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:39:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.3s
+2025.12.28 10:39:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:39:27 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.15s
+2025.12.28 10:39:32 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:39:32 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.24s
+2025.12.28 10:39:39 WARN  Could not find 'many1' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.12.28 10:39:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+Dec 28, 2025 10:39:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9541
+2025.12.28 10:39:39 WARN  Could not find 'many1' using presentation compiler nor semanticdb. Trying to guess the definition using available information from local class context. 
+2025.12.28 10:39:39 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 10:40:01 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:40:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.16s
+2025.12.28 10:40:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:40:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.28s
+2025.12.28 10:40:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:40:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.25s
+2025.12.28 10:42:01 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:42:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.22s
+2025.12.28 10:42:12 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:42:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.15s
+2025.12.28 10:42:15 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:42:15 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.15s
+2025.12.28 10:42:19 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:42:19 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.29s
+2025.12.28 10:42:36 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:42:36 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.63s
+2025.12.28 10:43:04 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:43:04 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.16s
+2025.12.28 10:43:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:43:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.57s
+2025.12.28 10:43:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:43:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.41s
+Dec 28, 2025 10:45:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10230
+Dec 28, 2025 10:45:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10240
+2025.12.28 10:45:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:45:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.11s
+2025.12.28 10:45:29 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:45:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.97s
+2025.12.28 10:45:48 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:45:48 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.28s
+Dec 28, 2025 10:46:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10454
+2025.12.28 10:46:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:46:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.39s
+2025.12.28 10:46:34 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:46:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.85s
+Dec 28, 2025 10:47:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10718
+2025.12.28 10:47:21 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:47:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.22s
+2025.12.28 10:47:22 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:26 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:27 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:28 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:34 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:39 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:40 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:41 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:41 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:47:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:47:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.81s
+Dec 28, 2025 10:47:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11187
+Dec 28, 2025 10:47:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11222
+2025.12.28 10:48:07 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:48:07 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.47s
+2025.12.28 10:48:38 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:48:38 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.17s
+2025.12.28 10:48:48 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:48:48 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.17s
+2025.12.28 10:48:56 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:48:56 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.5s
+2025.12.28 10:49:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:49:24 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.31s
+2025.12.28 10:49:31 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:49:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.32s
+2025.12.28 10:51:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:51:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.44s
+2025.12.28 10:51:37 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:51:37 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.32s
+2025.12.28 10:53:12 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:53:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.35s
+2025.12.28 10:53:12 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:15 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:16 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:17 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:19 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:53:19 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.23s
+2025.12.28 10:53:19 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:21 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:53:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.29s
+2025.12.28 10:53:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+Dec 28, 2025 10:53:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12247
+2025.12.28 10:53:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:53:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.23s
+2025.12.28 10:53:26 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:53:57 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 10:53:57 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.27s
+2025.12.28 10:53:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 10:54:13 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:17 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:37 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:40 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:40 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:41 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:42 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:47 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:47 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:48 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:49 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:51 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:12:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:01 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:02 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:03 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:05 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:06 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:07 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:15 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:17 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:19 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:32 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:13:32 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.65s
+2025.12.28 12:13:33 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:13:51 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:14:12 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:22 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:27 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:27 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:28 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:33 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:39 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:16:39 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.69s
+2025.12.28 12:16:40 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:43 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:45 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:45 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:16:46 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:16:46 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.49s
+2025.12.28 12:16:46 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:03 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:03 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:04 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:04 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:05 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:17:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.57s
+2025.12.28 12:17:05 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:17 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:18 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:17:18 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.52s
+2025.12.28 12:17:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:22 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:17:24 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.56s
+2025.12.28 12:17:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:28 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:34 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:35 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:17:35 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.46s
+2025.12.28 12:17:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:17:42 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:09 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:10 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:18:10 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.59s
+2025.12.28 12:18:11 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+Dec 28, 2025 12:18:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13284
+2025.12.28 12:18:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:32 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:32 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:18:32 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.49s
+2025.12.28 12:18:33 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:38 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:18:38 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.45s
+2025.12.28 12:18:39 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:46 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:48 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:48 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:49 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:18:49 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:18:53 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.34s
+2025.12.28 12:19:51 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:19:53 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.49s
+2025.12.28 12:20:05 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:20:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.72s
+2025.12.28 12:20:17 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:20:17 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.46s
+2025.12.28 12:20:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:20:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.57s
+2025.12.28 12:20:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:20:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.46s
+2025.12.28 12:20:29 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:20:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.49s
+2025.12.28 12:20:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 5ms
+2025.12.28 12:23:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:23:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.48s
+2025.12.28 12:23:33 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:23:33 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.81s
+2025.12.28 12:23:52 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:23:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.52s
+2025.12.28 12:24:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:24:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.53s
+2025.12.28 12:24:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:24:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.38s
+2025.12.28 12:24:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:24:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.33s
+2025.12.28 12:24:46 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:24:46 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.35s
+2025.12.28 12:24:52 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:24:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.39s
+2025.12.28 12:27:20 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 12:27:20 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_empty-definition_(08-parsing_5f0f10ccc8b3)_12-27-20-182.md")
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.28 12:29:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:29:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.31s
+2025.12.28 12:30:09 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:30:11 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.16s
+2025.12.28 12:30:18 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:30:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.42s
+Dec 28, 2025 12:30:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15052
+Dec 28, 2025 12:31:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15114
+2025.12.28 12:31:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:31:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.65s
+2025.12.28 12:31:49 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:31:51 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.5s
+2025.12.28 12:32:41 INFO  compiling 08-parsing_0f10ccc8b3-test (1 scala source)
+2025.12.28 12:32:42 INFO  time: compiled 08-parsing_0f10ccc8b3-test in 1.01s
+2025.12.28 12:33:57 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:33:58 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.01s
+2025.12.28 12:34:04 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:34:04 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.68s
+2025.12.28 12:34:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:34:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.63s
+Dec 28, 2025 12:34:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15683
+2025.12.28 12:34:34 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:34:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.52s
+Dec 28, 2025 12:34:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15777
+2025.12.28 12:36:02 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:36:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.44s
+Dec 28, 2025 12:37:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15984
+2025.12.28 12:38:28 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:38:33 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.25s
+2025.12.28 12:38:53 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+Dec 28, 2025 12:39:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16554
+Dec 28, 2025 12:39:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16654
+Dec 28, 2025 12:40:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16928
+2025.12.28 12:40:27 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 12:40:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_empty-definition_(08-parsing_5f0f10ccc8b3)_12-40-27-291.md")
+2025.12.28 12:40:46 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 28, 2025 12:40:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17251
+2025.12.28 12:40:50 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.3s
+2025.12.28 12:40:50 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:40:54 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.77s
+2025.12.28 12:40:55 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:41:22 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:41:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:41:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:41:26 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+Dec 28, 2025 12:41:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17342
+2025.12.28 12:41:27 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 12:41:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:41:29 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.52s
+Dec 28, 2025 12:42:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17410
+2025.12.28 12:42:26 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:42:30 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.5s
+2025.12.28 12:42:50 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:42:52 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.96s
+2025.12.28 12:43:56 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:44:00 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.03s
+2025.12.28 12:44:00 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:44:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.62s
+2025.12.28 12:44:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:44:18 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.12s
+2025.12.28 12:44:56 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:45:00 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.16s
+2025.12.28 12:45:14 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:45:18 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.67s
+2025.12.28 12:45:29 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:45:30 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.19s
+Dec 28, 2025 12:45:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18307
+2025.12.28 12:45:55 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 12:45:55 INFO  dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of Ident(Parser) is not assigned (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_compiler-error_(08-parsing_5f0f10ccc8b3)_12-45-55-364.md")
+2025.12.28 12:46:07 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 12:46:07 INFO  dotty.tools.dotc.ast.Trees$UnAssignedTypeException: type of Ident(List) is not assigned (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_compiler-error_(08-parsing_5f0f10ccc8b3)_12-46-07-229.md")
+2025.12.28 12:46:19 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:46:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.05s
+Dec 28, 2025 12:46:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18657
+2025.12.28 12:47:10 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:47:10 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.76s
+2025.12.28 12:47:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:47:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.62s
+2025.12.28 12:47:37 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:47:37 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.4s
+2025.12.28 12:47:57 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:47:57 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.66s
+2025.12.28 12:48:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:48:27 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.52s
+2025.12.28 12:48:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:48:48 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.05s
+2025.12.28 12:49:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:49:40 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.48s
+Dec 28, 2025 12:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19238
+Dec 28, 2025 12:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19239
+2025.12.28 12:50:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 12:50:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.31s
+2025.12.28 18:09:01 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:09:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.95s
+2025.12.28 18:09:05 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:09:09 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.23s
+2025.12.28 18:09:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:09:27 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.29s
+2025.12.28 18:09:32 INFO  time: compiled 08-parsing_0f10ccc8b3 in 6ms
+2025.12.28 18:09:37 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:09:38 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.43s
+Dec 28, 2025 6:10:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19724
+Dec 28, 2025 6:10:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19848
+Dec 28, 2025 6:10:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19946
+Dec 28, 2025 6:10:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19984
+2025.12.28 18:10:54 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:10:54 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.78s
+Dec 28, 2025 6:11:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20092
+2025.12.28 18:21:04 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
+2025.12.28 18:21:04 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
+2025.12.28 18:21:04 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
+2025.12.28 18:21:04 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
+2025.12.28 18:21:04 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:21:07 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.13s
+2025.12.28 18:22:07 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:22:08 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.69s
+2025.12.28 18:22:10 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:22:10 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.76s
+2025.12.28 18:22:34 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:22:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.81s
+2025.12.28 18:23:26 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:23:26 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.96s
+2025.12.28 18:23:31 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:23:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.66s
+Dec 28, 2025 6:23:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20628
+Dec 28, 2025 6:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20631
+2025.12.28 18:23:59 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:23:59 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.66s
+2025.12.28 18:24:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:24:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.69s
+2025.12.28 18:24:09 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:24:09 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.62s
+2025.12.28 18:24:18 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:24:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.45s
+2025.12.28 18:25:31 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala]
+2025.12.28 18:25:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-28/r_empty-definition_(08-parsing_5f0f10ccc8b3)_18-25-31-630.md")
+2025.12.28 18:25:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:25:43 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.15s
+2025.12.28 18:25:52 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:25:54 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.8s
+2025.12.28 18:26:11 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:26:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.3s
+2025.12.28 18:26:36 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:26:36 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.77s
+2025.12.28 18:26:41 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:26:41 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.85s
+2025.12.28 18:27:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:27:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.71s
+2025.12.28 18:27:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:27:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.85s
+2025.12.28 18:28:36 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:28:39 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.87s
+2025.12.28 18:28:47 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:28:48 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.22s
+2025.12.28 18:28:58 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:29:00 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.67s
+2025.12.28 18:29:03 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 18:29:21 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:29:21 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.49s
+2025.12.28 18:29:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 18:29:27 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 18:29:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(08-parsing_5f0f10ccc8b3)_11-45-39-596.md")
+2025.12.28 18:29:33 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:29:33 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.45s
+2025.12.28 18:29:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:29:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.39s
+2025.12.28 18:30:00 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:30:00 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.4s
+2025.12.28 18:30:11 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:30:14 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.12s
+2025.12.28 18:30:41 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:30:41 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.74s
+2025.12.28 18:31:09 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:31:09 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.7s
+2025.12.28 18:31:12 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:31:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.57s
+2025.12.28 18:31:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:31:19 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.8s
+2025.12.28 18:31:56 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:31:56 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.76s
+2025.12.28 18:32:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:32:07 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.3s
+2025.12.28 18:32:58 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:32:58 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.86s
+2025.12.28 18:33:50 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:33:53 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.38s
+2025.12.28 18:35:10 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:35:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.04s
+2025.12.28 18:35:16 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:35:17 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.37s
+2025.12.28 18:35:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:35:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.62s
+2025.12.28 18:36:00 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:36:02 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.21s
+2025.12.28 18:37:17 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:37:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 5.4s
+Dec 28, 2025 6:37:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23892
+2025.12.28 18:37:34 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:37:36 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.35s
+2025.12.28 18:38:14 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:38:16 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.53s
+2025.12.28 18:38:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:38:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.99s
+2025.12.28 18:38:31 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 28, 2025 6:38:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24127
+2025.12.28 18:38:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.29s
+2025.12.28 18:38:40 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:38:42 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.16s
+Dec 28, 2025 6:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24296
+2025.12.28 18:39:30 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:39:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.31s
+2025.12.28 18:39:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:39:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.94s
+Dec 28, 2025 6:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24529
+Dec 28, 2025 6:40:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24616
+2025.12.28 18:40:27 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:40:28 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.09s
+2025.12.28 18:41:05 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:41:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.87s
+Exception in thread "pool-6-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.28 18:42:50 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:42:51 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.32s
+2025.12.28 18:43:01 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:43:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.79s
+2025.12.28 18:43:11 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:43:14 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.17s
+2025.12.28 18:43:45 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:43:45 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.55s
+2025.12.28 18:43:54 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:43:54 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.47s
+2025.12.28 18:44:11 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:44:11 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.52s
+2025.12.28 18:44:15 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:44:15 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.53s
+2025.12.28 18:45:12 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:45:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.79s
+Exception in thread "pool-6-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.12.28 18:46:00 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:46:03 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.65s
+2025.12.28 18:48:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 28, 2025 6:48:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25845
+Dec 28, 2025 6:48:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25846
+Dec 28, 2025 6:48:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25847
+2025.12.28 18:48:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 6.27s
+2025.12.28 18:48:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:48:26 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.2s
+2025.12.28 18:48:34 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:48:36 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.63s
+Dec 28, 2025 6:49:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26232
+2025.12.28 18:49:28 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:49:34 INFO  time: compiled 08-parsing_0f10ccc8b3 in 6.45s
+2025.12.28 18:53:53 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:53:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/08-parsing/Exercises.scala
+2025.12.28 18:53:59 INFO  time: compiled 08-parsing_0f10ccc8b3 in 6.11s
+Dec 28, 2025 6:54:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27018
+2025.12.28 18:54:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:54:28 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.87s
+2025.12.28 18:54:29 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:54:30 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.62s
+2025.12.28 18:54:42 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:54:44 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.31s
+Dec 28, 2025 6:55:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27303
+Dec 28, 2025 6:55:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27318
+2025.12.28 18:55:25 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:55:30 INFO  time: compiled 08-parsing_0f10ccc8b3 in 4.78s
+2025.12.28 18:56:18 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:56:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 6.8s
+Dec 28, 2025 6:56:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27407
+2025.12.28 18:56:53 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:56:56 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.55s
+2025.12.28 18:57:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 18:57:25 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.91s
+Dec 28, 2025 7:47:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27877
+Dec 28, 2025 7:48:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27939
+2025.12.28 19:48:05 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 19:48:08 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.7s
+2025.12.28 19:48:24 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 19:48:26 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.41s
+2025.12.28 19:49:56 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+Dec 28, 2025 7:49:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28262
+2025.12.28 19:49:59 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.38s
+2025.12.28 19:49:59 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 19:50:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 1.42s
+Dec 28, 2025 7:50:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28281
+2025.12.28 19:50:09 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 19:50:12 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.68s
+2025.12.28 20:03:02 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:03:05 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.25s
+2025.12.28 20:03:19 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:03:19 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.4s
+2025.12.28 20:03:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:03:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.58s
+2025.12.28 20:03:31 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:03:31 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.38s
+2025.12.28 20:04:02 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:04:02 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.42s
+2025.12.28 20:04:09 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:04:09 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.28s
+2025.12.28 20:04:20 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:04:20 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.38s
+2025.12.28 20:04:23 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:04:23 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.36s
+2025.12.28 20:04:39 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:04:39 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.3s
+2025.12.28 20:06:38 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:06:41 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.3s
+Dec 28, 2025 8:07:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29765
+2025.12.28 20:07:13 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:07:13 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.45s
+Dec 28, 2025 8:07:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30031
+2025.12.28 20:07:48 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:07:48 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.63s
+2025.12.28 20:07:59 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:07:59 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.48s
+2025.12.28 20:08:03 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:08:03 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.46s
+2025.12.28 20:08:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:08:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.33s
+Dec 28, 2025 8:08:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30353
+Dec 28, 2025 8:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30366
+2025.12.28 20:08:58 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:09:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 2.14s
+Dec 28, 2025 8:10:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30534
+2025.12.28 20:10:57 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:11:01 INFO  time: compiled 08-parsing_0f10ccc8b3 in 3.66s
+2025.12.28 20:11:06 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:11:06 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.56s
+2025.12.28 20:11:22 INFO  compiling 08-parsing_0f10ccc8b3 (1 scala source)
+2025.12.28 20:11:22 INFO  time: compiled 08-parsing_0f10ccc8b3 in 0.99s
+2025.12.28 20:14:51 INFO  Shutting down server
+2025.12.28 20:14:51 INFO  shutting down Metals
+2025.12.28 20:14:51 INFO  Shut down connection with build server.
+2025.12.28 20:14:51 INFO  Exiting server
