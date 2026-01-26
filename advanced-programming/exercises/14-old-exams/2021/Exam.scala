@@ -49,11 +49,18 @@ import org.scalacheck.{Arbitrary, Gen}
 import org.scalacheck.Arbitrary.*
 import org.scalactic.Equality
 
+import org.scalacheck.Prop.{forAll, forAllNoShrink}
+
+
 import fpinscala.answers.laziness.LazyList
 import fpinscala.answers.state.*
 import fpinscala.answers.monoids.Foldable
 import fpinscala.answers.parallelism.Par
 import fpinscala.answers.monads.Monad
+import fpinscala.answers.laziness.LazyList.empty
+import cats.data.Func
+import fpinscala.answers.monads.Functor
+import fpinscala.answers.testing.Prop.forkProp
 
 
 object Q1:
@@ -89,6 +96,11 @@ object Q1:
    */
   // def hello (???: ???): ??? = ???
 
+  def hello(printable: Printable): String = printable match
+    case Printable.Triangle => "triangle"
+    case Printable.Square => "square"
+  
+
 end Q1
 
 
@@ -108,7 +120,19 @@ object Q2:
    * on the input list.
    */
 
-  def sequence[Err,A] (as: List[Either[Err,A]]): Either[Err, List[A]] = ???
+  def sequence[Err,A] (as: List[Either[Err,A]]): Either[Err, List[A]] = //as match
+    // case x::xs => x match
+    //   case Left(value) => Left(value)
+    //   case Right(value) => sequence(xs).map(list => value::list)
+    // case _ => Right(List.empty)
+
+    as.foldRight[Either[Err, List[A]]](Right(List.empty)) {(elem, acc) => 
+      (acc, elem) match
+        case (Left(e), _) => Left(e)
+        case (_, Left(e)) => Left(e)
+        case (Right(xs), Right(value)) => Right(xs :+ value) 
+  
+    }
 
 end Q2
 
@@ -130,6 +154,8 @@ object Q3:
    */
 
    // def sequence ...
+
+  def sequence[Err, A, F[_]: Foldable] (as: F[Either[Err, A]]): Either[Err, F[A]] = ???
 
 end Q3
 
@@ -155,7 +181,21 @@ object Q4:
 
   type Rand[A] = State[RNG, A]
 
-  lazy val riid: Rand[(Int,Int,Double)] = ???
+  // lazy val riid: Rand[(Int, Int, Double)] = 
+  //   RNG.flatMap(RNG.int) { a =>
+  //     RNG.flatMap(RNG.int) { b =>
+  //       RNG.map(doubleBetween(a, b)) { x =>
+  //         (a, b, x)
+  //       }
+  //     }
+  //   }
+
+  // def doubleBetween(a: Int, b: Int): Rand[Double] =
+  //   RNG.map(RNG.double) { d =>
+  //     val min = a.min(b)
+  //     val max = a.max(b)
+  //     min + d * (max - min)
+  //   }
 
 end Q4
 
@@ -258,7 +298,8 @@ object Q8:
    * from the course.
    */
 
-  def checkIfLongerEqThan[A](s: LazyList[A])(n: Int): Boolean = ???
+  def checkIfLongerEqThan[A](s: LazyList[A])(n: Int): Boolean = 
+    size(s.take(n)) >= n
 
 end Q8
 
@@ -290,11 +331,13 @@ object Q9:
     extends org.scalacheck.Properties("Q9"):
 
     given Arbitrary[LazyList[Int]] =
-      Arbitrary { Gen.listOf(Gen.choose(1, 100))
+      Arbitrary { Gen.nonEmptyListOf(Gen.choose(1, 100))
         .map { l => LazyList(l*) } }
 
     property("Q9: Write the test here by replacing 'false' below") =
-      false
+        forAll {(list: LazyList[Int]) => 
+          checkIfLongerEqThan(list.append(list))(2) 
+       }
 
 end Q9
 

@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli",
+    "bsp",
+    "--json-options",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-envs.json",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam"
+  ],
+  "version": "1.11.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

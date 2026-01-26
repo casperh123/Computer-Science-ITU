@@ -1,0 +1,170 @@
+2026.01.05 09:16:05 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam' for client VSCodium 1.107.1.
+2026.01.05 09:16:05 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:16:05 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:16:06 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:16:11 INFO  Wrote configuration file for ide in: /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.bsp/scala-cli.json
+2026.01.05 09:16:11 INFO  time: ran 'scala-cli bspConfig' in 31ms
+2026.01.05 09:16:11 INFO  Attempting to connect to the build server...
+2026.01.05 09:16:11 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam)
+2026.01.05 09:16:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.05 09:16:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:16:11 INFO  time: Connected to build server in 0.75s
+2026.01.05 09:16:12 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.05 09:16:12 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:16:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:16:15 INFO  time: indexed workspace in 2.92s
+2026.01.05 09:16:15 INFO  time: compiled 15-dry-exam_53a8141c8c in 3.29s
+2026.01.05 09:16:15 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:16:15 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-15-907.md")
+2026.01.05 09:16:15 INFO  compiling 15-dry-exam_53a8141c8c-test (1 scala source)
+2026.01.05 09:16:15 INFO  time: compiled 15-dry-exam_53a8141c8c-test in 0.18s
+2026.01.05 09:16:15 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala]
+2026.01.05 09:16:15 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-16-16-360.md")
+2026.01.05 09:16:16 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala
+2026.01.05 09:16:15 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:16:15 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-16-382.md")
+2026.01.05 09:16:15 INFO  Created report: Optional.empty
+2026.01.05 09:16:15 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-16-592.md")
+2026.01.05 09:16:16 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:16:16 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-16-597.md")
+2026.01.05 09:16:16 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.test.scala]
+2026.01.05 09:16:16 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c-test)_09-16-16-618.md")
+2026.01.05 09:16:16 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.test.scala
+2026.01.05 09:16:16 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.test.scala]
+2026.01.05 09:16:16 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c-test)_09-16-16-936.md")
+2026.01.05 09:16:16 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.test.scala
+2026.01.05 09:16:16 INFO  Created report: Optional.empty
+2026.01.05 09:16:16 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-17-594.md")
+2026.01.05 09:16:17 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:16:17 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-16-17-604.md")
+2026.01.05 09:16:17 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala]
+2026.01.05 09:16:17 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-16-17-617.md")
+2026.01.05 09:16:17 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala
+2026.01.05 09:16:17 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala]
+2026.01.05 09:16:17 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-16-17-937.md")
+2026.01.05 09:16:17 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala
+2026.01.05 09:16:18 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Exam.scala]
+2026.01.05 09:16:18 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-16-18-661.md")
+2026.01.05 09:16:41 INFO  Shutting down server
+2026.01.05 09:16:41 INFO  shutting down Metals
+2026.01.05 09:16:41 INFO  BSP server: Jan 05, 2026 9:16:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.05 09:16:41 INFO  Shut down connection with build server.
+2026.01.05 09:16:41 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.05 09:16:41 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.05 09:16:41 INFO  BSP server:   "method": "build/exit",
+2026.01.05 09:16:41 INFO  BSP server:   "params": null
+2026.01.05 09:16:41 INFO  BSP server: }
+2026.01.05 09:16:41 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.05 09:16:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.05 09:16:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.05 09:16:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.05 09:16:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.05 09:16:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.05 09:16:41 INFO  Exiting server
+2026.01.05 09:23:10 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam' for client VSCodium 1.107.1.
+2026.01.05 09:23:10 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:23:10 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:23:11 INFO  Attempting to connect to the build server...
+2026.01.05 09:23:11 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam)
+2026.01.05 09:23:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.05 09:23:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:23:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:23:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Jan 05, 2026 9:23:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jan 05, 2026 9:23:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jan 05, 2026 9:23:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2026.01.05 09:23:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:23:11 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:23:11 INFO  time: Connected to build server in 0.67s
+2026.01.05 09:23:11 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.05 09:23:12 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala
+2026.01.05 09:23:12 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala]
+2026.01.05 09:23:12 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-23-12-700.md")
+2026.01.05 09:23:12 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala]
+2026.01.05 09:23:12 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-23-12-949.md")
+2026.01.05 09:23:12 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala
+2026.01.05 09:23:12 INFO  Cancelling compilation on scala-cli server
+2026.01.05 09:23:12 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala]
+2026.01.05 09:23:12 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-23-12-989.md")
+2026.01.05 09:23:12 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala
+2026.01.05 09:23:12 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:23:12 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.65s
+2026.01.05 09:23:13 INFO  time: indexed workspace in 1.8s
+2026.01.05 09:23:13 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:23:13 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-23-13-832.md")
+2026.01.05 09:23:14 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:14 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.29s
+2026.01.05 09:23:13 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/Main.scala]
+2026.01.05 09:23:13 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_09-23-14-349.md")
+2026.01.05 09:23:13 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala]
+2026.01.05 09:23:13 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(15-dry-exam_5f53a8141c8c)_09-23-14-366.md")
+2026.01.05 09:23:14 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/project.scala
+2026.01.05 09:23:14 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:15 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.49s
+2026.01.05 09:23:15 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:15 INFO  time: indexed workspace in 1.31s
+2026.01.05 09:23:15 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.45s
+2026.01.05 09:23:16 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:16 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.33s
+2026.01.05 09:23:24 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:24 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.46s
+2026.01.05 09:23:41 INFO  Disconnecting from scala-cli session...
+2026.01.05 09:23:41 INFO  Shut down connection with build server.
+2026.01.05 09:23:41 INFO  BSP server: Jan 05, 2026 9:23:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.05 09:23:41 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.05 09:23:41 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.05 09:23:41 INFO  BSP server:   "method": "build/exit",
+2026.01.05 09:23:41 INFO  BSP server:   "params": null
+2026.01.05 09:23:41 INFO  BSP server: }
+2026.01.05 09:23:41 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.05 09:23:41 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.05 09:23:41 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.05 09:23:41 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.05 09:23:41 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.05 09:23:41 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.05 09:23:41 INFO  BSP server: 	... 13 more
+2026.01.05 09:23:41 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.05 09:23:41 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.05 09:23:41 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.05 09:23:41 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)
+2026.01.05 09:23:41 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.01.05 09:23:41 INFO  BSP server: 	... 15 more
+2026.01.05 09:23:41 INFO  BSP server: 
+2026.01.05 09:23:41 INFO  Attempting to connect to the build server...
+2026.01.05 09:23:41 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam)
+2026.01.05 09:23:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/15-dry-exam/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.05 09:23:41 INFO  time: Connected to build server in 0.67s
+2026.01.05 09:23:42 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.05 09:23:41 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:42 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.4s
+2026.01.05 09:23:42 INFO  time: indexed workspace in 0.69s
+2026.01.05 09:23:42 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:42 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.31s
+2026.01.05 09:23:42 INFO  compiling 15-dry-exam_53a8141c8c (16 scala sources)
+2026.01.05 09:23:42 INFO  time: compiled 15-dry-exam_53a8141c8c in 0.28s
+2026.01.05 09:23:56 INFO  Shutting down server
+2026.01.05 09:23:56 INFO  shutting down Metals
+2026.01.05 09:23:56 INFO  Shut down connection with build server.
+2026.01.05 09:23:56 INFO  Exiting server

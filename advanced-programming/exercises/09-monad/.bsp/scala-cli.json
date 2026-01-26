@@ -1,17 +1,17 @@
 {
   "name": "scala-cli",
   "argv": [
-    "/home/casperh/.local/bin/scala-cli",
+    "/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli",
     "bsp",
     "--json-options",
-    "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json",
     "--json-launcher-options",
-    "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json",
     "--envs-file",
-    "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json",
-    "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad"
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json",
+    "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad"
   ],
-  "version": "1.8.5",
+  "version": "1.11.0",
   "bspVersion": "2.1.1",
   "languages": [
     "scala",

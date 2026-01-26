@@ -1,726 +1,193 @@
-2025.12.24 16:12:55 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.106.3.
-2025.12.24 16:12:55 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.24 16:12:56 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.12.24 16:12:57 INFO  Wrote configuration file for ide in: /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.bsp/scala-cli.json
-2025.12.24 16:12:57 INFO  time: ran 'scala-cli bspConfig' in 79ms
-2025.12.24 16:12:57 INFO  Attempting to connect to the build server...
-2025.12.24 16:12:57 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.24 16:12:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.24 16:12:58 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.12.24 16:12:58 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.24 16:12:58 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.24 16:12:58 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.24 16:12:58 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.24 16:12:57 INFO  time: Connected to build server in 0.71s
-2025.12.24 16:12:58 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.24 16:12:58 INFO  compiling 09-monad_0f10ccc8b3 (2 scala sources)
-2025.12.24 16:13:03 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.24 16:13:05 INFO  time: compiled 09-monad_0f10ccc8b3 in 6.93s
-2025.12.24 16:13:05 INFO  time: indexed workspace in 7.17s
-2025.12.24 16:13:05 INFO  compiling 09-monad_0f10ccc8b3-test (1 scala source)
-2025.12.24 16:13:08 INFO  time: compiled 09-monad_0f10ccc8b3-test in 2.58s
-2025.12.24 16:14:45 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:14:48 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.59s
-2025.12.24 16:14:48 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:14:51 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.98s
-2025.12.24 16:14:51 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:14:52 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.37s
-2025.12.24 16:15:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:08 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.81s
-2025.12.24 16:15:12 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:12 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.7s
-Dec 24, 2025 4:15:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 485
-Dec 24, 2025 4:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 565
-Dec 24, 2025 4:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 570
-2025.12.24 16:15:32 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:32 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.68s
-2025.12.24 16:15:48 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:48 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.69s
-2025.12.24 16:15:53 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:53 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.36s
-2025.12.24 16:15:58 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:15:58 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.34s
-2025.12.24 16:16:06 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:16:06 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.81s
-Dec 24, 2025 4:16:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 836
-2025.12.24 16:16:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:16:10 INFO  time: compiled 09-monad_0f10ccc8b3-test in 11ms
-2025.12.24 16:16:10 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.01s
-Dec 24, 2025 4:16:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 875
-2025.12.24 16:16:37 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:16:37 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.56s
-Dec 24, 2025 4:16:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1216
-2025.12.24 16:16:42 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:16:42 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.73s
-Dec 24, 2025 4:16:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1427
-Dec 24, 2025 4:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1543
-2025.12.24 16:17:12 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:17:12 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.66s
-Dec 24, 2025 4:18:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2051
-2025.12.24 16:18:15 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:18:15 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.4s
-2025.12.24 16:19:03 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:19:03 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.86s
-Dec 24, 2025 4:19:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2234
-2025.12.24 16:19:18 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:19:18 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.63s
-Dec 24, 2025 4:19:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2308
-2025.12.24 16:19:47 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.24 16:19:47 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.79s
-2025.12.25 11:47:34 INFO  Shutting down server
-2025.12.25 11:47:34 INFO  shutting down Metals
-2025.12.25 11:47:34 INFO  Shut down connection with build server.
-2025.12.25 11:47:34 INFO  BSP server: Dec 25, 2025 11:47:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-2025.12.25 11:47:34 INFO  BSP server: WARNING: Notification threw an exception: {
-2025.12.25 11:47:34 INFO  BSP server:   "jsonrpc": "2.0",
-2025.12.25 11:47:34 INFO  BSP server:   "method": "build/exit",
-2025.12.25 11:47:34 INFO  BSP server:   "params": null
-2025.12.25 11:47:34 INFO  BSP server: }
-2025.12.25 11:47:34 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
-2025.12.25 11:47:34 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
-2025.12.25 11:47:34 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
-2025.12.25 11:47:34 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
-2025.12.25 11:47:34 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
-2025.12.25 11:47:34 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
-2025.12.25 11:47:34 INFO  BSP server: 	... 13 more
-2025.12.25 11:47:34 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
-2025.12.25 11:47:34 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
-2025.12.25 11:47:34 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
-2025.12.25 11:47:34 INFO  Exiting server
-2025.12.25 11:51:04 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.106.3.
-2025.12.25 11:51:04 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.25 11:51:05 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.12.25 11:51:05 INFO  Attempting to connect to the build server...
-2025.12.25 11:51:05 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.25 11:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.25 11:51:06 INFO  BSP server: Starting compilation server
-2025.12.25 11:51:08 INFO  time: Connected to build server in 3.37s
-2025.12.25 11:51:08 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.25 11:51:08 INFO  time: Imported build in 0.19s
-2025.12.25 11:51:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.25 11:51:11 INFO  time: indexed workspace in 2.84s
-2025.12.25 11:52:15 INFO  Shutting down server
-2025.12.25 11:52:15 INFO  shutting down Metals
-2025.12.25 11:52:15 INFO  BSP server: Dec 25, 2025 11:52:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-2025.12.25 11:52:15 INFO  Shut down connection with build server.
-2025.12.25 11:52:15 INFO  BSP server: WARNING: Notification threw an exception: {
-2025.12.25 11:52:15 INFO  BSP server:   "jsonrpc": "2.0",
-2025.12.25 11:52:15 INFO  BSP server:   "method": "build/exit",
-2025.12.25 11:52:15 INFO  BSP server:   "params": null
-2025.12.25 11:52:15 INFO  BSP server: }
-2025.12.25 11:52:15 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-2025.12.25 11:52:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-2025.12.25 11:52:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-2025.12.25 11:52:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-2025.12.25 11:52:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-2025.12.25 11:52:15 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-2025.12.25 11:52:15 INFO  Exiting server
-2025.12.26 10:03:12 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
-2025.12.26 10:03:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.26 10:03:13 INFO  Attempting to connect to the build server...
-2025.12.26 10:03:13 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.26 10:03:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.26 10:03:14 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
-2025.12.26 10:03:14 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
-2025.12.26 10:03:14 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
-2025.12.26 10:03:14 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
-2025.12.26 10:03:14 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.26 10:03:14 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.26 10:03:14 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.26 10:03:14 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.26 10:03:15 INFO  time: Connected to build server in 1.29s
-2025.12.26 10:03:15 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.26 10:03:15 INFO  time: Imported build in 0.12s
-2025.12.26 10:03:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.26 10:03:20 INFO  time: indexed workspace in 5.77s
-2025.12.26 10:07:00 INFO  Shutting down server
-2025.12.26 10:07:00 INFO  shutting down Metals
-2025.12.26 10:07:00 INFO  Shut down connection with build server.
-2025.12.26 10:07:00 INFO  Exiting server
-2025.12.26 14:56:54 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
-2025.12.26 14:56:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-Dec 26, 2025 2:56:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-2025.12.26 14:56:55 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-Dec 26, 2025 2:56:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 6
-2025.12.26 14:56:55 INFO  Attempting to connect to the build server...
-2025.12.26 14:56:55 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.26 14:56:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.26 14:56:55 INFO  time: Connected to build server in 0.46s
-2025.12.26 14:56:55 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.26 14:56:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.26 14:56:57 INFO  time: indexed workspace in 1.87s
-2025.12.26 14:58:42 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 14:58:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.84s
-2025.12.26 14:58:51 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 14:58:51 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.6s
-2025.12.26 14:59:04 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 14:59:04 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.35s
-2025.12.26 14:59:10 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 14:59:10 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.36s
-Dec 26, 2025 2:59:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 623
-2025.12.26 14:59:47 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 14:59:47 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.49s
-2025.12.26 15:00:00 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:00:00 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.33s
-2025.12.26 15:00:02 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:00:02 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.41s
-2025.12.26 15:03:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:03:33 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.63s
-2025.12.26 15:03:37 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:03:37 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.58s
-2025.12.26 15:03:53 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:03:53 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.43s
-2025.12.26 15:04:00 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:04:00 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.33s
-2025.12.26 15:04:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:04:08 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.32s
-2025.12.26 15:04:12 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:04:12 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.36s
-2025.12.26 15:04:13 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:04:13 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.27s
-2025.12.26 15:05:12 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:05:12 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.43s
-2025.12.26 15:14:15 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:16 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.19s
-2025.12.26 15:14:24 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:24 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.46s
-2025.12.26 15:14:25 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:25 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.44s
-2025.12.26 15:14:32 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:32 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.35s
-2025.12.26 15:14:36 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:36 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.35s
-2025.12.26 15:14:37 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:37 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.35s
-2025.12.26 15:14:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:14:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.33s
-2025.12.26 15:15:10 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:15:10 INFO  compiling 09-monad_0f10ccc8b3-test (1 scala source)
-2025.12.26 15:15:10 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.83s
-2025.12.26 15:15:11 INFO  time: compiled 09-monad_0f10ccc8b3-test in 0.46s
-Dec 26, 2025 3:15:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2118
-2025.12.26 15:15:50 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:15:50 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.23s
-2025.12.26 15:16:27 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:16:27 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.55s
-2025.12.26 15:16:48 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:16:48 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.17s
-2025.12.26 15:16:50 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:16:50 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.19s
-2025.12.26 15:16:51 INFO  Created report: Optional[file:///home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
-2025.12.26 15:16:51 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(09-monad_5f0f10ccc8b3)_15-16-51-655.md")
-Dec 26, 2025 3:16:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2535
-2025.12.26 15:16:52 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:16:52 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.18s
-2025.12.26 15:16:55 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:16:55 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.29s
-Dec 26, 2025 3:17:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2598
-Dec 26, 2025 3:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2604
-2025.12.26 15:17:16 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:17:16 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.15s
-2025.12.26 15:17:21 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:17:21 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.82s
-2025.12.26 15:17:42 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:17:42 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:17:42 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.42s
-Dec 26, 2025 3:45:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-Dec 26, 2025 3:45:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-Dec 26, 2025 3:45:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-Dec 26, 2025 3:45:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2779
-2025.12.26 15:48:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-Exception in thread "pool-5-thread-1" java.lang.InterruptedException
-	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
-	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
-	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025.12.26 15:48:49 INFO  time: compiled 09-monad_0f10ccc8b3 in 5.14s
-2025.12.26 15:49:41 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:49:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.56s
-2025.12.26 15:49:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:47 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:55 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:57 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:49:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:00 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:01 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:02 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:04 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:04 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:05 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:07 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:16 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:17 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:18 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:24 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:25 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:50:54 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:01 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:02 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:03 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:14 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.26 15:51:38 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-Dec 26, 2025 3:51:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 3956
-2025.12.26 15:51:43 INFO  time: compiled 09-monad_0f10ccc8b3 in 4.72s
-2025.12.26 15:53:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:53:47 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.82s
-2025.12.26 15:53:50 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:53:50 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.92s
-Dec 26, 2025 3:53:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4643
-2025.12.26 15:53:54 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:53:57 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.52s
-Dec 26, 2025 3:55:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4698
-Dec 26, 2025 3:56:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4816
-Dec 26, 2025 3:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4819
-Dec 26, 2025 3:57:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5007
-2025.12.26 15:57:32 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:57:36 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.42s
-2025.12.26 15:58:35 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 15:58:37 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.01s
-Dec 26, 2025 3:59:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5664
-2025.12.26 16:00:07 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:00:10 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.86s
-2025.12.26 16:00:14 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:00:14 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.77s
-2025.12.26 16:00:33 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:00:33 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.49s
-Dec 26, 2025 4:01:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 6262
-2025.12.26 16:01:06 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:01:07 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.12s
-2025.12.26 16:01:17 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:01:17 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.91s
-2025.12.26 16:01:43 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:01:43 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.65s
-Dec 26, 2025 4:02:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 6691
-2025.12.26 16:02:21 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:02:23 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.72s
-Dec 26, 2025 4:09:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 7170
-Dec 26, 2025 4:10:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 7403
-Dec 26, 2025 4:10:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 7721
-2025.12.26 16:11:41 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:11:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.12s
-2025.12.26 16:11:57 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:11:57 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.64s
-Dec 26, 2025 4:12:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8123
-Dec 26, 2025 4:12:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8179
-Dec 26, 2025 4:12:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8181
-2025.12.26 16:12:10 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:12:10 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.84s
-2025.12.26 16:12:20 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:12:22 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.33s
-2025.12.26 16:13:42 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:13:45 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.67s
-2025.12.26 16:13:46 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:13:49 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.33s
-2025.12.26 16:13:51 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.26 16:13:52 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.26s
-2025.12.27 03:00:40 INFO  Shutting down server
-2025.12.27 03:00:40 INFO  shutting down Metals
-2025.12.27 03:00:40 INFO  Shut down connection with build server.
-2025.12.27 03:00:40 INFO  Exiting server
-2025.12.27 18:17:15 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
-2025.12.27 18:17:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.27 18:17:17 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.12.27 18:17:17 INFO  Attempting to connect to the build server...
-2025.12.27 18:17:17 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.27 18:17:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.27 18:17:18 INFO  BSP server: Starting compilation server
-2025.12.27 18:17:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
-2025.12.27 18:17:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/
-2025.12.27 18:17:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
-2025.12.27 18:17:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalacheck/scalacheck_3/maven-metadata.xml
-2025.12.27 18:17:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.27 18:17:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/
-2025.12.27 18:17:22 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.27 18:17:22 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scalactic/scalactic_3/maven-metadata.xml
-2025.12.27 18:17:22 INFO  time: Connected to build server in 5.38s
-2025.12.27 18:17:22 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.27 18:17:22 INFO  time: Imported build in 0.24s
-2025.12.27 18:17:24 INFO  compiling 09-monad_0f10ccc8b3-test (1 scala source)
-2025.12.27 18:17:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.27 18:17:27 INFO  time: indexed workspace in 5.62s
-2025.12.27 18:17:37 INFO  time: compiled 09-monad_0f10ccc8b3-test in 13s
-Exception in thread "pool-6-thread-1" java.lang.InterruptedException
-	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
-	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
-	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Exception in thread "pool-6-thread-2" java.lang.InterruptedException
-	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
-	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
-	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025.12.27 19:23:15 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:23:21 INFO  time: compiled 09-monad_0f10ccc8b3 in 5.74s
-2025.12.27 19:24:14 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:24:17 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.34s
-2025.12.27 19:24:35 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:24:37 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.37s
-2025.12.27 19:24:39 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:24:40 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.04s
-2025.12.27 19:24:54 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2025-12-26/r_empty-definition_(09-monad_5f0f10ccc8b3)_15-16-51-655.md")
-Exception in thread "pool-6-thread-3" java.lang.InterruptedException
-	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
-	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
-	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-2025.12.27 19:24:59 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:24:59 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.68s
-2025.12.27 19:25:12 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:25:13 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.36s
-2025.12.27 19:25:27 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:25:29 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.16s
-2025.12.27 19:25:29 INFO  compiling 09-monad_0f10ccc8b3-test (1 scala source)
-2025.12.27 19:25:30 INFO  time: compiled 09-monad_0f10ccc8b3-test in 1.38s
-2025.12.27 19:26:24 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:26:28 INFO  time: compiled 09-monad_0f10ccc8b3 in 4.1s
-Dec 27, 2025 7:27:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1448
-Dec 27, 2025 7:28:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1508
-2025.12.27 19:28:01 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:28:03 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.64s
-Dec 27, 2025 7:29:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1562
-2025.12.27 19:30:50 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:30:51 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.54s
-2025.12.27 19:30:58 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:30:58 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.77s
-2025.12.27 19:31:02 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:31:02 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.78s
-2025.12.27 19:31:03 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:31:03 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.6s
-2025.12.27 19:31:13 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:31:15 INFO  time: compiled 09-monad_0f10ccc8b3 in 2s
-2025.12.27 19:33:36 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:33:38 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.77s
-2025.12.27 19:33:38 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:33:41 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.93s
-2025.12.27 19:33:59 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:33:59 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.72s
-2025.12.27 19:34:18 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:34:18 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.56s
-Dec 27, 2025 7:34:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 2947
-2025.12.27 19:34:47 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:34:47 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.62s
-2025.12.27 19:34:48 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:34:50 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.19s
-2025.12.27 19:35:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:35:31 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.53s
-2025.12.27 19:35:35 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:35:35 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.42s
-2025.12.27 19:35:40 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:35:41 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.25s
-2025.12.27 19:35:51 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:35:51 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.44s
-Exception in thread "pool-6-thread-4" java.lang.InterruptedException
-	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
-	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
-	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Dec 27, 2025 7:35:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 3168
-2025.12.27 19:35:53 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:35:53 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.46s
-2025.12.27 19:36:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:36:08 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.76s
-2025.12.27 19:37:17 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-Dec 27, 2025 7:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 3351
-2025.12.27 19:37:20 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.15s
-2025.12.27 19:37:21 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:37:22 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.02s
-2025.12.27 19:37:26 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:37:26 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.79s
-2025.12.27 19:37:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:37:31 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.82s
-2025.12.27 19:37:58 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:37:58 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.58s
-2025.12.27 19:38:09 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:38:09 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.71s
-2025.12.27 19:38:40 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:38:40 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.89s
-2025.12.27 19:39:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:39:08 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.6s
-2025.12.27 19:39:18 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:39:18 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.54s
-2025.12.27 19:39:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:39:31 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.56s
-Dec 27, 2025 7:40:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4151
-2025.12.27 19:40:46 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:40:46 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.43s
-2025.12.27 19:40:54 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:40:54 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.35s
-2025.12.27 19:41:05 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:05 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.62s
-2025.12.27 19:41:08 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:08 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.85s
-2025.12.27 19:41:26 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:26 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.6s
-2025.12.27 19:41:27 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:28 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:28 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:29 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-Dec 27, 2025 7:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4464
-Dec 27, 2025 7:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 4466
-2025.12.27 19:41:30 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:31 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.58s
-2025.12.27 19:41:32 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:32 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:34 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:37 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:37 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:38 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:39 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:40 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:41 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:42 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:43 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:43 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.51s
-2025.12.27 19:41:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:51 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:51 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:51 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:52 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:52 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.42s
-2025.12.27 19:41:53 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:56 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:58 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:41:59 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:41:59 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.34s
-2025.12.27 19:41:59 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:10 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:10 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:10 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:10 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:13 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:14 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:15 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:42:15 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.46s
-2025.12.27 19:42:15 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:20 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:21 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:23 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:42:23 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.33s
-2025.12.27 19:42:23 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:31 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:32 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:33 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:42:33 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.59s
-2025.12.27 19:42:33 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:35 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:36 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:44 WARN  Could not load snapshot text for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
-2025.12.27 19:42:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:42:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.78s
-Dec 27, 2025 7:53:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5002
-2025.12.27 19:53:44 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:53:44 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.48s
-Dec 27, 2025 7:53:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5198
-2025.12.27 19:53:48 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:53:48 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.64s
-2025.12.27 19:53:56 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:53:56 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.46s
-Dec 27, 2025 7:53:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5280
-Dec 27, 2025 7:53:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 5281
-2025.12.27 19:54:03 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:54:04 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.02s
-2025.12.27 19:54:30 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:54:30 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.42s
-2025.12.27 19:55:06 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:55:06 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.7s
-Dec 27, 2025 7:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 6041
-2025.12.27 19:55:25 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:55:25 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.53s
-2025.12.27 19:55:34 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:55:34 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.62s
-2025.12.27 19:55:56 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:55:56 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.59s
-2025.12.27 19:56:25 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:56:25 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.46s
-2025.12.27 19:56:59 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:56:59 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.77s
-2025.12.27 19:57:31 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:57:31 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.59s
-2025.12.27 19:58:11 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:58:13 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.06s
-2025.12.27 19:58:47 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 19:58:47 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.89s
-2025.12.27 20:29:22 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-Dec 27, 2025 8:29:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 6761
-2025.12.27 20:29:25 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.36s
-2025.12.27 20:29:25 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:29:27 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.69s
-2025.12.27 20:31:15 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:31:18 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.54s
-2025.12.27 20:31:34 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:31:36 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.24s
-2025.12.27 20:32:22 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:32:23 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.29s
-Dec 27, 2025 8:32:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 7428
-2025.12.27 20:32:29 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:32:29 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.7s
-Dec 27, 2025 8:36:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8130
-2025.12.27 20:37:22 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:37:24 INFO  time: compiled 09-monad_0f10ccc8b3 in 2.1s
-Dec 27, 2025 8:37:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8587
-Dec 27, 2025 8:37:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 8589
-2025.12.27 20:37:53 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:37:53 INFO  time: compiled 09-monad_0f10ccc8b3 in 0.75s
-2025.12.27 20:38:13 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:38:16 INFO  time: compiled 09-monad_0f10ccc8b3 in 3.04s
-2025.12.27 20:38:25 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:38:26 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.11s
-2025.12.27 20:38:29 INFO  compiling 09-monad_0f10ccc8b3 (1 scala source)
-2025.12.27 20:38:30 INFO  time: compiled 09-monad_0f10ccc8b3 in 1.37s
-2025.12.27 20:40:19 INFO  Shutting down server
-2025.12.27 20:40:19 INFO  shutting down Metals
-2025.12.27 20:40:19 INFO  Shut down connection with build server.
-2025.12.27 20:40:19 INFO  BSP server: Dec 27, 2025 8:40:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-2025.12.27 20:40:19 INFO  BSP server: WARNING: Notification threw an exception: {
-2025.12.27 20:40:19 INFO  BSP server:   "jsonrpc": "2.0",
-2025.12.27 20:40:19 INFO  BSP server:   "method": "build/exit",
-2025.12.27 20:40:19 INFO  BSP server:   "params": null
-2025.12.27 20:40:19 INFO  BSP server: }
-2025.12.27 20:40:19 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
-2025.12.27 20:40:19 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
-2025.12.27 20:40:19 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
-2025.12.27 20:40:19 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
-2025.12.27 20:40:19 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
-2025.12.27 20:40:19 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
-2025.12.27 20:40:19 INFO  BSP server: 	... 13 more
-2025.12.27 20:40:19 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
-2025.12.27 20:40:19 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
-2025.12.27 20:40:19 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
-2025.12.27 20:40:19 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:475)
-2025.12.27 20:40:19 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
-2025.12.27 20:40:19 INFO  BSP server: 	... 15 more
-2025.12.27 20:40:19 INFO  BSP server: 
-2025.12.27 20:40:19 INFO  Exiting server
-2025.12.28 21:09:17 INFO  Started: Metals version 1.6.4 in folders '/home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
-2025.12.28 21:09:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.28 21:09:17 INFO  no build target found for /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
-2025.12.28 21:09:18 INFO  Attempting to connect to the build server...
-2025.12.28 21:09:18 INFO  Running BSP server List(/home/casperh/.local/bin/scala-cli, bsp, --json-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
-2025.12.28 21:09:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casperh/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casperh/.cache/metals/bsp.trace.json
-2025.12.28 21:09:18 INFO  time: Connected to build server in 0.38s
-2025.12.28 21:09:18 INFO  Connected to Build server: scala-cli v1.8.5
-2025.12.28 21:09:18 INFO  compiling 09-monad_0f10ccc8b3-test (1 scala source)
-Dec 28, 2025 9:09:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
-INFO: Unsupported notification method: $/setTrace
-Dec 28, 2025 9:09:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 1
-2025.12.28 21:09:21 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
-2025.12.28 21:09:21 INFO  time: indexed workspace in 2.67s
-2025.12.28 21:10:03 INFO  Shutting down server
-2025.12.28 21:10:03 INFO  shutting down Metals
-2025.12.28 21:10:03 INFO  Shut down connection with build server.
-2025.12.28 21:10:03 INFO  Exiting server
+2026.01.02 20:02:45 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
+2026.01.02 20:02:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.02 20:02:46 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.02 20:02:47 INFO  Wrote configuration file for ide in: /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.bsp/scala-cli.json
+2026.01.02 20:02:47 INFO  time: ran 'scala-cli bspConfig' in 44ms
+2026.01.02 20:02:47 INFO  Attempting to connect to the build server...
+2026.01.02 20:02:47 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.02 20:02:47 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
+2026.01.02 20:02:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.02 20:02:47 INFO  time: Connected to build server in 0.54s
+2026.01.02 20:02:48 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.02 20:02:47 INFO  compiling 09-monad_e8211e4050 (2 scala sources)
+2026.01.02 20:02:50 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.02 20:02:52 INFO  time: indexed workspace in 3.57s
+2026.01.02 20:02:52 INFO  time: compiled 09-monad_e8211e4050 in 4.11s
+2026.01.02 20:02:52 INFO  compiling 09-monad_e8211e4050-test (1 scala source)
+2026.01.02 20:02:54 INFO  time: compiled 09-monad_e8211e4050-test in 1.75s
+2026.01.02 20:03:13 INFO  Shutting down server
+2026.01.02 20:03:13 INFO  shutting down Metals
+2026.01.02 20:03:13 INFO  Shut down connection with build server.
+2026.01.02 20:03:13 INFO  BSP server: Jan 02, 2026 8:03:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.02 20:03:13 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.02 20:03:13 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.02 20:03:13 INFO  BSP server:   "method": "build/exit",
+2026.01.02 20:03:13 INFO  BSP server:   "params": null
+2026.01.02 20:03:13 INFO  BSP server: }
+2026.01.02 20:03:13 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.02 20:03:13 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.02 20:03:13 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.02 20:03:13 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.02 20:03:13 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.02 20:03:13 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.02 20:03:13 INFO  BSP server: 	... 13 more
+2026.01.02 20:03:13 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.02 20:03:13 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.02 20:03:13 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.02 20:03:13 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)
+2026.01.02 20:03:13 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.01.02 20:03:13 INFO  BSP server: 	... 15 more
+2026.01.02 20:03:13 INFO  BSP server: 
+2026.01.02 20:03:13 INFO  Exiting server
+2026.01.03 15:11:58 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
+2026.01.03 15:11:58 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.03 15:11:59 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.03 15:11:59 INFO  Attempting to connect to the build server...
+2026.01.03 15:11:59 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
+2026.01.03 15:11:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.03 15:11:59 INFO  time: Connected to build server in 0.46s
+2026.01.03 15:11:59 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.03 15:11:59 INFO  compiling 09-monad_e8211e4050 (2 scala sources)
+2026.01.03 15:12:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.03 15:12:01 INFO  time: indexed workspace in 1.91s
+2026.01.03 15:12:02 INFO  time: compiled 09-monad_e8211e4050 in 2.45s
+2026.01.03 15:12:02 INFO  compiling 09-monad_e8211e4050-test (1 scala source)
+2026.01.03 15:12:03 INFO  time: compiled 09-monad_e8211e4050-test in 1.09s
+2026.01.03 15:21:03 INFO  Shutting down server
+2026.01.03 15:21:03 INFO  shutting down Metals
+2026.01.03 15:21:03 INFO  Shut down connection with build server.
+2026.01.03 15:21:03 INFO  BSP server: Jan 03, 2026 3:21:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.03 15:21:03 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.03 15:21:03 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.03 15:21:03 INFO  BSP server:   "method": "build/exit",
+2026.01.03 15:21:03 INFO  BSP server:   "params": null
+2026.01.03 15:21:03 INFO  BSP server: }
+2026.01.03 15:21:03 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.03 15:21:03 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.03 15:21:03 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.03 15:21:03 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.03 15:21:03 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.03 15:21:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.03 15:21:03 INFO  BSP server: 	... 13 more
+2026.01.03 15:21:03 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.03 15:21:03 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.03 15:21:03 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.03 15:21:03 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)
+2026.01.03 15:21:03 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.01.03 15:21:03 INFO  BSP server: 	... 15 more
+2026.01.03 15:21:03 INFO  BSP server: 
+2026.01.03 15:21:03 INFO  Exiting server
+2026.01.04 11:11:33 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
+2026.01.04 11:11:33 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.04 11:11:34 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.04 11:11:34 INFO  Attempting to connect to the build server...
+2026.01.04 11:11:34 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
+2026.01.04 11:11:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.04 11:11:34 INFO  time: Connected to build server in 0.84s
+2026.01.04 11:11:35 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.04 11:11:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.04 11:11:37 INFO  time: indexed workspace in 2.6s
+2026.01.04 13:08:16 INFO  Shutting down server
+2026.01.04 13:08:16 INFO  shutting down Metals
+2026.01.04 13:08:16 INFO  Shut down connection with build server.
+2026.01.04 13:08:16 INFO  Exiting server
+2026.01.05 10:09:38 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad' for client VSCodium 1.107.1.
+2026.01.05 10:09:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 10:09:40 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 10:09:41 INFO  Attempting to connect to the build server...
+2026.01.05 10:09:41 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad)
+2026.01.05 10:09:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.05 10:09:43 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2026.01.05 10:09:43 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2026.01.05 10:09:43 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2026.01.05 10:09:43 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2026.01.05 10:09:45 INFO  time: Connected to build server in 3.27s
+2026.01.05 10:09:45 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.05 10:09:45 INFO  time: Imported build in 0.17s
+2026.01.05 10:09:50 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:50 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-50-932.md")
+2026.01.05 10:09:51 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
+2026.01.05 10:09:53 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 10:09:55 INFO  time: indexed workspace in 10s
+2026.01.05 10:09:56 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Main.scala]
+2026.01.05 10:09:56 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_10-09-56-141.md")
+2026.01.05 10:09:56 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:56 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-56-733.md")
+2026.01.05 10:09:56 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:56 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-56-860.md")
+2026.01.05 10:09:56 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:56 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-56-980.md")
+Jan 05, 2026 10:09:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jan 05, 2026 10:09:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2026.01.05 10:09:57 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:57 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-57-599.md")
+2026.01.05 10:09:57 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
+2026.01.05 10:09:57 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Main.scala]
+2026.01.05 10:09:57 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_10-09-57-670.md")
+2026.01.05 10:09:59 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:09:59 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-09-59-681.md")
+2026.01.05 10:09:59 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala
+2026.01.05 10:31:23 INFO  Created report: Optional[file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/Exercises.scala]
+2026.01.05 10:31:23 INFO  java.lang.AssertionError: assertion failed: asTerm called on not-a-Term val <none> (full report at: "/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/09-monad/.metals/.reports/metals-full/2026-01-05/r_compiler-error_(09-monad_5fe8211e4050)_10-31-23-977.md")
+2026.01.05 12:58:54 INFO  Shutting down server
+2026.01.05 12:58:54 INFO  shutting down Metals
+2026.01.05 12:58:54 INFO  Shut down connection with build server.
+2026.01.05 12:58:54 INFO  BSP server: Jan 05, 2026 12:58:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.05 12:58:54 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.05 12:58:54 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.05 12:58:54 INFO  BSP server:   "method": "build/exit",
+2026.01.05 12:58:54 INFO  BSP server:   "params": null
+2026.01.05 12:58:54 INFO  BSP server: }
+2026.01.05 12:58:54 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.05 12:58:54 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.05 12:58:54 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.05 12:58:54 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.05 12:58:54 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.05 12:58:54 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.05 12:58:54 INFO  BSP server: 	... 13 more
+2026.01.05 12:58:54 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.05 12:58:54 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.05 12:58:54 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.05 12:58:54 INFO  BSP server: 	at scala.build.bsp.BspImpl.$anonfun$11(BspImpl.scala:471)
+2026.01.05 12:58:54 INFO  BSP server: 	at scala.build.bsp.BuildServerProxy.onBuildExit(BuildServerProxy.scala:29)
+2026.01.05 12:58:54 INFO  BSP server: 	... 15 more
+2026.01.05 12:58:54 INFO  BSP server: 
+2026.01.05 12:58:54 INFO  Exiting server

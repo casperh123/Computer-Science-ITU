@@ -1,0 +1,332 @@
+2026.01.05 09:25:54 INFO  Started: Metals version 1.6.4 in folders '/home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023' for client VSCodium 1.107.1.
+2026.01.05 09:25:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:25:55 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/Exam.solution.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:25:59 INFO  Wrote configuration file for ide in: /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/.bsp/scala-cli.json
+2026.01.05 09:25:59 INFO  time: ran 'scala-cli bspConfig' in 28ms
+2026.01.05 09:25:59 INFO  Attempting to connect to the build server...
+2026.01.05 09:25:59 INFO  Running BSP server List(/home/casper/.cache/scalacli/local-repo/bin/scala-cli/scala-cli, bsp, --json-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/.scala-build/ide-options-v2.json, --json-launcher-options, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/.scala-build/ide-launcher-options.json, --envs-file, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/.scala-build/ide-envs.json, /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023)
+2026.01.05 09:25:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/.metals/bsp.trace.json or /home/casper/.cache/metals/bsp.trace.json
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  no build target found for /home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/Exam.solution.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:5:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      scalacheck 1.17.0 -> org.scalacheck::scalacheck:1.19.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:6:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "scalactic is outdated, update to 3.2.19"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      scalactic 3.2.17 -> org.scalactic::scalactic:3.2.19
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:7:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "monocle-core is outdated, update to 3.3.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      monocle-core 3.2.0 -> dev.optics::monocle-core:3.3.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:8:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "monocle-macro is outdated, update to 3.3.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      monocle-macro 3.2.0 -> dev.optics::monocle-macro:3.3.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  time: Connected to build server in 0.68s
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  Connected to Build server: scala-cli v1.11.0
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:25:59 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:25:59 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 WARN  3.3.0 is no longer supported in the current Metals versions, using the last known supported version 1.2.2
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:5:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      scalacheck 1.17.0 -> org.scalacheck::scalacheck:1.19.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:6:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "scalactic is outdated, update to 3.2.19"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      scalactic 3.2.17 -> org.scalactic::scalactic:3.2.19
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:7:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "monocle-core is outdated, update to 3.3.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      monocle-core 3.2.0 -> dev.optics::monocle-core:3.3.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  BSP server: [hint] ./project.scala:8:16
+2026.01.05 09:25:59 INFO  BSP server: [hint] "monocle-macro is outdated, update to 3.3.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]      monocle-macro 3.2.0 -> dev.optics::monocle-macro:3.3.0
+2026.01.05 09:25:59 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:25:59 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:25:59 INFO  compiling 2023_53a8141c8c (15 scala sources)
+2026.01.05 09:26:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.05 09:26:02 INFO  time: indexed workspace in 2.56s
+2026.01.05 09:26:08 INFO  time: compiled 2023_53a8141c8c in 8.82s
+2026.01.05 09:26:08 INFO  compiling 2023_53a8141c8c-test (2 scala sources)
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:26:08 INFO  time: compiled 2023_53a8141c8c-test in 0.89s
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:26:09 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:09 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:09 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [hint] ./project.scala:5:16
+2026.01.05 09:26:09 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]      scalacheck 1.17.0 -> org.scalacheck::scalacheck:1.19.0
+2026.01.05 09:26:09 INFO  BSP server: [hint] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [hint] ./project.scala:6:16
+2026.01.05 09:26:09 INFO  BSP server: [hint] "scalactic is outdated, update to 3.2.19"
+2026.01.05 09:26:09 INFO  BSP server: [hint]      scalactic 3.2.17 -> org.scalactic::scalactic:3.2.19
+2026.01.05 09:26:09 INFO  BSP server: [hint] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:09 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [hint] ./project.scala:7:16
+2026.01.05 09:26:09 INFO  BSP server: [hint] "monocle-core is outdated, update to 3.3.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]      monocle-core 3.2.0 -> dev.optics::monocle-core:3.3.0
+2026.01.05 09:26:09 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:09 INFO  BSP server: [hint] ./project.scala:8:16
+2026.01.05 09:26:09 INFO  BSP server: [hint] "monocle-macro is outdated, update to 3.3.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]      monocle-macro 3.2.0 -> dev.optics::monocle-macro:3.3.0
+2026.01.05 09:26:09 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:09 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:9:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.typelevel::spire:0.18.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:8:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:7:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:6:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [warn] ./project.scala:5:11
+2026.01.05 09:26:19 INFO  BSP server: [warn] Using 'lib' is deprecated, use 'dep' instead
+2026.01.05 09:26:19 INFO  BSP server: [warn] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:19 INFO  BSP server: [warn]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [hint] ./project.scala:5:16
+2026.01.05 09:26:19 INFO  BSP server: [hint] "scalacheck is outdated, update to 1.19.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]      scalacheck 1.17.0 -> org.scalacheck::scalacheck:1.19.0
+2026.01.05 09:26:19 INFO  BSP server: [hint] //> using lib "org.scalacheck::scalacheck:1.17.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [hint] ./project.scala:6:16
+2026.01.05 09:26:19 INFO  BSP server: [hint] "scalactic is outdated, update to 3.2.19"
+2026.01.05 09:26:19 INFO  BSP server: [hint]      scalactic 3.2.17 -> org.scalactic::scalactic:3.2.19
+2026.01.05 09:26:19 INFO  BSP server: [hint] //> using lib "org.scalactic::scalactic:3.2.17"
+2026.01.05 09:26:19 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [hint] ./project.scala:7:16
+2026.01.05 09:26:19 INFO  BSP server: [hint] "monocle-core is outdated, update to 3.3.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]      monocle-core 3.2.0 -> dev.optics::monocle-core:3.3.0
+2026.01.05 09:26:19 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-core:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:26:19 INFO  BSP server: [hint] ./project.scala:8:16
+2026.01.05 09:26:19 INFO  BSP server: [hint] "monocle-macro is outdated, update to 3.3.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]      monocle-macro 3.2.0 -> dev.optics::monocle-macro:3.3.0
+2026.01.05 09:26:19 INFO  BSP server: [hint] //> using lib "dev.optics::monocle-macro:3.2.0"
+2026.01.05 09:26:19 INFO  BSP server: [hint]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026.01.05 09:29:11 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/project.scala
+2026.01.05 09:29:11 WARN  Could not find semantic tokens for: file:///home/casper/GitHub/Computer-Science-ITU/advanced-programming/exercises/14-old-exams/2023/project.scala
+2026.01.05 09:29:21 INFO  Shutting down server
+2026.01.05 09:29:21 INFO  shutting down Metals
+2026.01.05 09:29:21 INFO  Shut down connection with build server.
+2026.01.05 09:29:21 INFO  BSP server: Jan 05, 2026 9:29:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2026.01.05 09:29:21 INFO  BSP server: WARNING: Notification threw an exception: {
+2026.01.05 09:29:21 INFO  BSP server:   "jsonrpc": "2.0",
+2026.01.05 09:29:21 INFO  BSP server:   "method": "build/exit",
+2026.01.05 09:29:21 INFO  BSP server:   "params": null
+2026.01.05 09:29:21 INFO  BSP server: }
+2026.01.05 09:29:21 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2026.01.05 09:29:21 INFO  BSP server: 	at com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:775)
+2026.01.05 09:29:21 INFO  BSP server: 	at com.oracle.svm.core.posix.thread.PosixPlatformThreads.pthreadStartRoutine(PosixPlatformThreads.java:203)
+2026.01.05 09:29:21 INFO  BSP server: Caused by: java.lang.reflect.InvocationTargetException
+2026.01.05 09:29:21 INFO  BSP server: 	at java.base@17.0.6/java.lang.reflect.Method.invoke(Method.java:568)
+2026.01.05 09:29:21 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+2026.01.05 09:29:21 INFO  BSP server: 	... 13 more
+2026.01.05 09:29:21 INFO  BSP server: Caused by: java.lang.RuntimeException: BSP server not initialized yet
+2026.01.05 09:29:21 INFO  BSP server: 	at scala.sys.package$.error(package.scala:27)
+2026.01.05 09:29:21 INFO  BSP server: 	at scala.build.bsp.BloopSession$Reference.get(BloopSession.scala:70)
+2026.01.05 09:29:21 INFO  Exiting server

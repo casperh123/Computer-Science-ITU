@@ -14,8 +14,7 @@ import org.scalactic.TripleEquals.*
 object ExamSpec
   extends org.scalacheck.Properties("exam-2025"):
 
-  property("A test that always passes (a sanity check)") =
-    forAll { (n: Int) => n == n }
+    
 
 end ExamSpec
 

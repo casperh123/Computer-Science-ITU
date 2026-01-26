@@ -73,7 +73,7 @@ object Streaming:
 
 
   def fViaFold (l: LazyList[Int]): Int = 
-    ???
+    l.foldLeft(0) {(acc, elem) => if elem % 2 == 1 then acc + 1 else acc }
 
 end Streaming
 
@@ -116,7 +116,11 @@ object Parsing:
       .map { (h,t) => h::t }
 
   lazy val longestLine: Parser[Int] = 
-    ???
+    parser.map{lines => 
+      lines.foldLeft(0){(longest, line) =>
+        line.size max longest
+      }
+    }
 
 
   /* QUESTION 3 ######################################################
@@ -128,7 +132,11 @@ object Parsing:
    */
 
   val allLinesTheSame: Parser[Boolean] = 
-    ???
+    parser.map{lines =>
+      val sizes = lines.map(_.size)
+
+      sizes.distinct.size <= 1
+    }
 
 end Parsing
 
@@ -181,11 +189,10 @@ object Game:
   type Strategy = Dist[Move]
 
   lazy val Alice: Strategy =
-    ???
+    Uniform(Rock, Paper, Scissors)
 
   lazy val Bob: Strategy =
-    ???
-
+    Pigaro.bernoulli(0.5, Rock, Paper)
 
 
   /* QUESTION 5 ######################################################
@@ -197,9 +204,11 @@ object Game:
    *
    * Answering QUESTION 4 is not required to answer this one.
    */
-  def game (player1: Strategy, player2: Strategy): Dist[Result] =
-    ???
-
+  def game (player1: Strategy, player2: Strategy): Dist[Result] = 
+    for 
+      move1 <- player1
+      move2 <- player2
+    yield winner(move1, move2)
 
 
   /* QUESTION 6 ######################################################
@@ -215,7 +224,9 @@ object Game:
     = spire.random.rng.SecureJava.apply
 
   lazy val aliceFraction: Double = 
-    ???
+    game(Alice, Bob)
+      .sample(10000)
+      .pr(Some(Player.P1))
 
 end Game
 
@@ -302,8 +313,10 @@ object RL:
      */
 
     property("00 Null update on null table 2x3") = 
-      ???
+      val table = qZero(2, 3)
+      val updatedTable = update(table, 0, 0)(0.0, 0.0)
 
+      table == updatedTable
 
 
     /* QUESTION 8 ####################################################
@@ -321,7 +334,15 @@ object RL:
      */
 
     property("01 Null update on null table 2x3") = 
-      ???
+      val genState = Gen.choose(0, 1)
+      val genAction = Gen.choose(0,2)
+
+      forAll(genState, genAction, qGen(2,3)) {(state: Int, action: Int, table: Q[Int, Int]) =>
+        val reward = table(state)(action)
+        val updatedTable = update(table, state, action)(reward, 0.0)
+
+        table == updatedTable
+      }
 
   end NullUpdatesSpec
 
@@ -353,8 +374,16 @@ object RL:
     val l2 = summon[Index[Map[A, Double], A, Double]].index(a)
     l1.andThen(l2)
   
-  def updateWithLens[State, Action] (q: Q[State, Action], s: State, a: Action)
+  def updateWithLens[State, Action](q: Q[State, Action], s: State, a: Action)
     (reward: Double, estimate: Double): Q[State, Action] =
-    ???
+
+    val opt = lens(s, a)
+
+    val old = opt.getOption(q).get
+
+    val value =
+      (1.0 - α) * old + α * (reward + γ * estimate)
+
+    opt.replace(value)(q)
 
 end RL

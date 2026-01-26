@@ -87,15 +87,15 @@ def pick (n: Int): Dist[Ball] =
 // distribution - only one outcome is legal. This is the monadic
 // const/unit/pure.
 
+def other(player: Player): Player = player match
+  case Peter => Paula
+  case Paula => Peter
+
 
 def move(player: Player, n: Int): Dist[Player] =
-  val nextPlayer = player match
-    case Paula =>  Peter
-    case Peter => Paula
-
   pick(n).flatMap {
     case Red => Dirac(player)
-    case Black => move(nextPlayer, n - 1)
+    case Black => move(other(player), n - 1)
   }
 
 // Exercise 3.
@@ -117,11 +117,15 @@ def move(player: Player, n: Int): Dist[Player] =
 
 // Probability that Paula wins given Paula starts (the total no of balls: BallsNo)
 def probPaulaStarts: Double =
-  ???
+  val samples = move(Paula, BallsNo - 1).sample(10000)
+
+  samples.pr(Paula)
 
 // Probability that Paula wins given Peter starts (the total no of balls: BallsNo)
 def probPeterStarts: Double =
-  ???
+  val samples = move(Peter, BallsNo - 1).sample(10000)
+
+  samples.pr(Paula)
 
 //  Which strategy is beter for Paula? What if BallsNo == 9?
 //  Write your answer here in a comment: ___
@@ -153,7 +157,7 @@ def probPeterStarts: Double =
 // We first create a uniform prior for the first mover:
 
 lazy val firstMover: Dist[Player] =
-  ???
+  Uniform("First Mover")(Paula, Peter)
 
 // Now create a nullary function 'gameResult' that picks the first mover
 // randomly using 'firstMover' and then returns the probability distribution
@@ -166,7 +170,7 @@ lazy val firstMover: Dist[Player] =
 // useful. _flatMap/probDep are like flatMap, but they don't forget the source.
 
 def gameResult: Dist[(Player, Player)] =
-  ???
+  firstMover.probDep {firstMover => move(firstMover, BallsNo - 1)}
 
 // What is the probability that Paula wins with this uniform prior? Does it
 // agree with your intuition? Write the answer in a comment:
@@ -182,7 +186,9 @@ lazy val gameWonByPaula: Dist[(Player, Player)] =
 // methods.
 
 lazy val probPaulaStarted: Double =
-  ???
+  val samples = gameWonByPaula.sample(10000)
+
+  samples.pr((Paula, Paula))
 
 // Does this probability depend on the number of balls in the urn in the
 // urn being even or odd? What if it is even? What if it is odd?
@@ -220,7 +226,7 @@ val UpperBound = 6
 // Pigaro.uniform[A](name: String)(a : A*) :Element[A]
 
 lazy val blackBallsNo: Dist[Int] =
-  ???
+  Pigaro.uniform("Black Balls")(0, 1, 2, 3, 4, 5)
 
 // Now convert the prior distribution on the initial number of black balls in
 // the urn, into a distribution over the winning player.  Since the game is
@@ -230,7 +236,7 @@ lazy val blackBallsNo: Dist[Int] =
 // There is no test for this step of the computation.
 
 def outcome: Dist[(Int, Player)] =
-  ???
+  blackBallsNo.probDep {balls => move(Paula, balls)}
 
 // The following asserts that Paula has won.
 
@@ -246,7 +252,7 @@ lazy val paulaWon: Dist[(Int, Player)] =
 // IData[T].prMatching  { case ... => }
 
 lazy val posteriorOdd: Double =
-  ???
+  ??
 
 // Is the posteriorOdd greater than 1/2? Why?
 //

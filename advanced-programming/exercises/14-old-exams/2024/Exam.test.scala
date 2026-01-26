@@ -1,5 +1,5 @@
-/* This file is empty on purpose.   It is added, and configured if you
- * wanted to add your own tests during the exam.  It is not graded and
+/* This file is empty on purpose. It is added and configured if you
+ * wanted to add your own tests during the exam. It is not graded and
  * should not be submitted.
  */
 package adpro
@@ -12,10 +12,9 @@ import org.scalactic.TripleEquals.*
 
 
 object ExamSpec
-  extends org.scalacheck.Properties("exam-2024-autumn"):
+  extends org.scalacheck.Properties("exam-2025"):
 
-  property("A test that always passes (a sanity check)") =
-    forAll { (n: Int) => n == n }
+    
 
 end ExamSpec
 
