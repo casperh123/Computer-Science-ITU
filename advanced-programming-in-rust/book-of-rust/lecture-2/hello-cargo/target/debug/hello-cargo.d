@@ -1,0 +1,1 @@
+/home/casper/GitHub/Computer-Science-ITU/advanced-programming-in-rust/book-of-rust/lecture-2/hello-cargo/target/debug/hello-cargo: /home/casper/GitHub/Computer-Science-ITU/advanced-programming-in-rust/book-of-rust/lecture-2/hello-cargo/src/main.rs
