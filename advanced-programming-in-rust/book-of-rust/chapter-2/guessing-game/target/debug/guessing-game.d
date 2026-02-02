@@ -1,1 +1,0 @@
-/home/casper/GitHub/Computer-Science-ITU/advanced-programming-in-rust/book-of-rust/chapter-2/guessing-game/target/debug/guessing-game: /home/casper/GitHub/Computer-Science-ITU/advanced-programming-in-rust/book-of-rust/chapter-2/guessing-game/src/main.rs
