@@ -40,3 +40,8 @@ Help us ensure we are not forgetting anything by visualising the problem.
 - Static view: Design time view
 - ADL (Architectural Description Language)  
 
+
+
+## Quality Attribute Workshop
+
+![alt text](images/image.png)

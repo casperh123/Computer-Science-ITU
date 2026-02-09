@@ -24,3 +24,5 @@ Basically non-functional requirements. Includes most the 'ties'.
     - The action taken after the stimulus arrives
 - Response Measure
     - A measure of sorts pertaining to the response. In this case, the response is measureable.
+
+![alt text](images/image.png)
