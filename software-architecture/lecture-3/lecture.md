@@ -1,5 +1,11 @@
 # Lecture 3
 
+Remember:
+
+- Design process is messy -> Document it as it was straigh-forward
+- Architectural patterns -> Address specific problems. High abstraction level, that can affect multiple qualities
+- 
+
 ## Architectural Synthesis
 
 Finding architectural solutions to architecturally significant requirements.
@@ -48,6 +54,8 @@ Architectural tactics are concrete software concepts, that can be used to addres
 - Transaction
 - Authorization
 - Authentication
+
+![alt text](images/image-15.png)
 
 ### Examples
 
