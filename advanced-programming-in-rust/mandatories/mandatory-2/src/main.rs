@@ -1,44 +1,18 @@
 fn main() {
-    let circle = Circle{
-        radius: 5.0,
-    };
+    let input = "Hej Marco!";
 
-    let rectangle = Rectangle{
-        width: 10.0,
-        height: 30.0,
-    };
+    {
+        let output = first_word(input);
 
-    print_area(&circle);
-    print_area(&rectangle);
-}
-
-fn print_area<T: Area>(shape: &T) {
-    println!("Area: {}", shape.area())
-}
-
-struct Rectangle {
-    width: f64,
-    height: f64
-}
-
-impl Area for Rectangle {
-    fn area(&self) -> f64 {
-        self.width * self.height
+        println!("{]", &output);
     }
 }
 
-struct Circle {
-    radius: f64,
-}
-
-impl Area for Circle {
-    fn area(&self) -> f64 {
-        let circumference = 2.0 * self.radius;
-        
-        0.5 * (circumference * 3.14) * self.radius
+fn first_word<'a>(s: &'a str) -> &'a str {
+    for (i, &b) in s.as_bytes().iter().enumerate() {
+        if b == b' ' {
+            return &s[..i];
+        }
     }
-}
-
-trait Area {
-    fn area(&self) -> f64;
+    s
 }
