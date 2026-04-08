@@ -1,3 +1,9 @@
+---
+header-includes:
+  - \usepackage{float}
+  - \floatplacement{figure}{H}
+---
+
 # 1.1
 
 ## a)
@@ -33,15 +39,28 @@ Here are the extensions to the typing rules:
 
 ![Solution for Task 1.3.d](./images/1.3.d.jpg)
 
+# 1.5
+
+![Solution for Task 1.5](./images/1.5.jpg)
+
 # 2.1
 
 ## a)
 
-![Solution for Task 1.3.d](./images/2.1.a.jpg)
-
+![Solution for Task 2.1.a](./images/2.1.a.jpg)
 
 ## b)
 
 Observe the type derivation for (nat -> nat) -> nat -> nat
 
-![Solution for Task 2.1.a](./images/2.1.b.jpg)
+![Solution for Task 2.1.b](./images/2.1.b.jpg)
+
+# 2.3
+
+## a)
+
+![Solution for Task 2.3.a](./images/2.3.a.jpg)
+
+## b)
+
+![Solution for Task 2.3.b](./images/2.3.b.jpg)
