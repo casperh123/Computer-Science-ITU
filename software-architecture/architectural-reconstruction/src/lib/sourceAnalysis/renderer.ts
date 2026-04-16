@@ -31,6 +31,7 @@ function graphToElements(graph: Map<string, Map<string, number>>) {
   return [...nodes.values(), ...edges];
 }
 
+// Thanks to ArchLens for VS Code for this very nice graph styling
 export function renderGraph(
   container: HTMLElement,
   graph: Map<string, Map<string, number>>
