@@ -1,0 +1,22 @@
+{
+  "name": "architectural-reconstruction",
+  "version": "1.0.0",
+  "license": "ISC",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.29.2",
+    "@babel/types": "^7.29.0",
+    "@types/babel__traverse": "^7.28.0",
+    "@types/node": "^25.5.2",
+    "tsx": "^4.0.0",
+    "typescript": "^6.0.2"
+  },
+  "dependencies": {
+    "@babel/traverse": "^7.29.0"
+  }
+}
