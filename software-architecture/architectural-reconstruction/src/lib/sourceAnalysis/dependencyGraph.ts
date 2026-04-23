@@ -7,6 +7,9 @@ const traverse = (_traverse as any).default ?? _traverse;
 
 
 export class DependencyGraph {
+
+
+
   constructor(
     private rootDir: string,
     private level: number = 3
@@ -63,8 +66,7 @@ export class DependencyGraph {
     }
 
     if (imp.startsWith('@')) {
-      const parts = imp.split('/');
-      return parts.slice(0, 2).join('/');
+      return this.toLevel(imp);
     }
 
     return undefined;
@@ -72,10 +74,6 @@ export class DependencyGraph {
 
   private toLevel(p: string): string {
     const parts = p.split(path.sep).filter(Boolean);
-
-    if (parts.at(-1)?.includes('.')) {
-      parts.pop();
-    }
 
     return parts.slice(0, this.level).join('/');
   }
