@@ -7,17 +7,18 @@ const traverse = (_traverse as any).default ?? _traverse;
 
 
 export class DependencyGraph {
-
-
+  public nodes: string[];
+  public edges: Map<string, string[]>
 
   constructor(
     private rootDir: string,
     private level: number = 3
-  ) {}
+  ) {
+    this.nodes = [];
+    this.edges = new Map();
+  }
 
-  async build(filePaths: string[]): Promise<Map<string, Map<string, number>>> {
-    const graph = new Map<string, Map<string, number>>();
-
+  async build(filePaths: string[]): Promise<void> {
     for (const filePath of filePaths) {
       const source = this.toModule(filePath);
       if (!source) continue;
@@ -26,19 +27,20 @@ export class DependencyGraph {
       if (!code) continue;
 
       const imports = this.getImports(code);
+      const targets = imports
+        .map((imp) => this.resolveImport(imp, filePath))
+        .filter((imp) => imp != undefined || imp === source);
 
-      for (const imp of imports) {
-        const target = this.resolveImport(imp, filePath);
-        if (!target || target === source) continue;
-
-        if (!graph.has(source)) graph.set(source, new Map());
-
-        const deps = graph.get(source)!;
-        deps.set(target, (deps.get(target) ?? 0) + 1);
-      }
+      this.addEdgesToNode(source, targets);
     }
+  }
 
-    return graph;
+  private addEdgesToNode(node: string, edges: string[]) {
+    const nodeEdges = this.edges.getOrInsert(node, []); 
+
+    nodeEdges.push(...edges);
+
+    this.edges.set(node, nodeEdges);
   }
 
   private async read(filePath: string) {
